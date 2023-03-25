@@ -42,7 +42,5 @@ $hash = Keccak::hash(hex2bin($pub_key_hex_2), 256);
 
 $wallet_address = '0x' . substr($hash, -40);
 $wallet_private_key = '0x' . $priv_key_hex;
-
-echo "\r\n   SAVE BUT DO NOT SHARE THIS (Private Key): " . $wallet_private_key;
-echo "\r\n   Address: " . $wallet_address . " \n";
+ 
 ?>
