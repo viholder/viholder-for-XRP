@@ -1,0 +1,256 @@
+CRITICAL - 2022-12-25 12:39:11 --> Undefined variable $positions
+#0 /opt/bitnami/apache/htdocs/vh/app/Models/PortfolioModel.php(63): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /opt/bitnami/apache/htdocs/vh/app/Controllers/Portfolio.php(61): App\Models\PortfolioModel->position_actual_price()
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Portfolio->get_position_partial()
+#3 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#4 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-12-25 12:39:13 --> Undefined variable $positions
+#0 /opt/bitnami/apache/htdocs/vh/app/Models/PortfolioModel.php(63): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /opt/bitnami/apache/htdocs/vh/app/Controllers/Portfolio.php(61): App\Models\PortfolioModel->position_actual_price()
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Portfolio->get_position_partial()
+#3 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#4 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-12-25 12:39:14 --> Undefined variable $positions
+#0 /opt/bitnami/apache/htdocs/vh/app/Models/PortfolioModel.php(63): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /opt/bitnami/apache/htdocs/vh/app/Controllers/Portfolio.php(61): App\Models\PortfolioModel->position_actual_price()
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Portfolio->get_position_partial()
+#3 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#4 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-12-25 12:40:04 --> Undefined variable $positions
+#0 /opt/bitnami/apache/htdocs/vh/app/Models/PortfolioModel.php(63): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /opt/bitnami/apache/htdocs/vh/app/Controllers/Portfolio.php(61): App\Models\PortfolioModel->position_actual_price()
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Portfolio->get_position_partial()
+#3 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#4 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-12-25 12:40:07 --> Undefined variable $positions
+#0 /opt/bitnami/apache/htdocs/vh/app/Models/PortfolioModel.php(63): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /opt/bitnami/apache/htdocs/vh/app/Controllers/Portfolio.php(61): App\Models\PortfolioModel->position_actual_price()
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Portfolio->get_position_partial()
+#3 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#4 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-12-25 12:40:54 --> Undefined variable $result
+#0 /opt/bitnami/apache/htdocs/vh/app/Models/PortfolioModel.php(68): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /opt/bitnami/apache/htdocs/vh/app/Controllers/Portfolio.php(61): App\Models\PortfolioModel->position_actual_price()
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Portfolio->get_position_partial()
+#3 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#4 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-12-25 12:41:10 --> Undefined variable $result
+#0 /opt/bitnami/apache/htdocs/vh/app/Models/PortfolioModel.php(68): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /opt/bitnami/apache/htdocs/vh/app/Controllers/Portfolio.php(61): App\Models\PortfolioModel->position_actual_price()
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Portfolio->get_position_partial()
+#3 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#4 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-12-25 12:41:20 --> Undefined variable $result
+#0 /opt/bitnami/apache/htdocs/vh/app/Models/PortfolioModel.php(68): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /opt/bitnami/apache/htdocs/vh/app/Controllers/Portfolio.php(61): App\Models\PortfolioModel->position_actual_price()
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Portfolio->get_position_partial()
+#3 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#4 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-12-25 18:04:41 --> Call to undefined function settings()
+#0 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/View/View.php(210): include()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render()
+#3 /opt/bitnami/apache/htdocs/vh/app/Views/exchange/portfolio.php(182): view()
+#4 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/View/View.php(210): include('...')
+#5 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#6 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render()
+#7 /opt/bitnami/apache/htdocs/vh/app/Controllers/Portfolio.php(21): view()
+#8 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Portfolio->index()
+#9 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#10 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#11 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-12-25 18:04:43 --> Call to undefined function settings()
+#0 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/View/View.php(210): include()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render()
+#3 /opt/bitnami/apache/htdocs/vh/app/Views/exchange/portfolio.php(182): view()
+#4 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/View/View.php(210): include('...')
+#5 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#6 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render()
+#7 /opt/bitnami/apache/htdocs/vh/app/Controllers/Portfolio.php(21): view()
+#8 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Portfolio->index()
+#9 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#10 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#11 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-12-25 18:08:31 --> La acción que solicitaste no está permitida
+#0 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Security/Security.php(289): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Filters/CSRF.php(53): CodeIgniter\Security\Security->verify()
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Filters/Filters.php(173): CodeIgniter\Filters\CSRF->before()
+#3 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(393): CodeIgniter\Filters\Filters->run()
+#4 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-12-25 18:08:32 --> La acción que solicitaste no está permitida
+#0 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Security/Security.php(289): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Filters/CSRF.php(53): CodeIgniter\Security\Security->verify()
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Filters/Filters.php(173): CodeIgniter\Filters\CSRF->before()
+#3 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(393): CodeIgniter\Filters\Filters->run()
+#4 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-12-25 18:08:33 --> La acción que solicitaste no está permitida
+#0 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Security/Security.php(289): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Filters/CSRF.php(53): CodeIgniter\Security\Security->verify()
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Filters/Filters.php(173): CodeIgniter\Filters\CSRF->before()
+#3 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(393): CodeIgniter\Filters\Filters->run()
+#4 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-12-25 19:27:33 --> Undefined variable $totalTime
+#0 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Debug/Toolbar/Views/toolbar.tpl.php(40): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Debug/Toolbar.php(501): include('...')
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Debug/Toolbar.php(464): CodeIgniter\Debug\Toolbar->format()
+#3 /opt/bitnami/apache/htdocs/vh/app/Config/Events.php(48): CodeIgniter\Debug\Toolbar->respond()
+#4 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Events/Events.php(149): CodeIgniter\Events\Events::Config\{closure}()
+#5 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(308): CodeIgniter\Events\Events::trigger()
+#6 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-12-25 20:20:24 --> Undefined variable $units
+#0 /opt/bitnami/apache/htdocs/vh/app/Controllers/Portfolio.php(35): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Portfolio->sale_position()
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-12-25 22:21:30 --> La acción que solicitaste no está permitida
+#0 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Security/Security.php(289): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Filters/CSRF.php(53): CodeIgniter\Security\Security->verify()
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Filters/Filters.php(173): CodeIgniter\Filters\CSRF->before()
+#3 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(393): CodeIgniter\Filters\Filters->run()
+#4 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-12-25 22:21:31 --> La acción que solicitaste no está permitida
+#0 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Security/Security.php(289): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Filters/CSRF.php(53): CodeIgniter\Security\Security->verify()
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Filters/Filters.php(173): CodeIgniter\Filters\CSRF->before()
+#3 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(393): CodeIgniter\Filters\Filters->run()
+#4 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-12-25 22:21:32 --> La acción que solicitaste no está permitida
+#0 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Security/Security.php(289): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Filters/CSRF.php(53): CodeIgniter\Security\Security->verify()
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Filters/Filters.php(173): CodeIgniter\Filters\CSRF->before()
+#3 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(393): CodeIgniter\Filters\Filters->run()
+#4 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-12-25 22:25:05 --> Cannot access offset of type string on string
+#0 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Portfolio->sale_position()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#3 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-12-25 22:30:38 --> syntax error, unexpected token "return"
+#0 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Router/Router.php(175): CodeIgniter\Router\Router->autoRoute()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(726): CodeIgniter\Router\Router->handle()
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt()
+#3 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-12-25 22:30:46 --> syntax error, unexpected token "return"
+#0 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Router/Router.php(175): CodeIgniter\Router\Router->autoRoute()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(726): CodeIgniter\Router\Router->handle()
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt()
+#3 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-12-25 22:37:14 --> Undefined array key "leverage"
+#0 /opt/bitnami/apache/htdocs/vh/app/Models/PortfolioModel.php(134): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /opt/bitnami/apache/htdocs/vh/app/Controllers/Portfolio.php(154): App\Models\PortfolioModel->add_open_position()
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Portfolio->open_position()
+#3 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#4 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-12-25 22:42:13 --> Array to string conversion
+#0 /opt/bitnami/apache/htdocs/vh/app/Controllers/Portfolio.php(27): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Portfolio->sale_position()
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-12-25 22:42:45 --> Array to string conversion
+#0 /opt/bitnami/apache/htdocs/vh/app/Controllers/Portfolio.php(27): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Portfolio->sale_position()
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-12-25 23:52:02 --> Cannot access offset of type string on string
+#0 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Portfolio->sale_position()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#3 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-12-25 23:52:42 --> Cannot access offset of type string on string
+#0 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Portfolio->sale_position()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#3 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-12-25 23:54:26 --> Undefined variable $position
+#0 /opt/bitnami/apache/htdocs/vh/app/Controllers/Portfolio.php(61): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Portfolio->sale_position()
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-12-25 23:54:35 --> Undefined variable $position
+#0 /opt/bitnami/apache/htdocs/vh/app/Controllers/Portfolio.php(61): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Portfolio->sale_position()
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-12-25 23:55:33 --> Undefined variable $position
+#0 /opt/bitnami/apache/htdocs/vh/app/Controllers/Portfolio.php(61): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Portfolio->sale_position()
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-12-25 23:55:53 --> Undefined variable $position
+#0 /opt/bitnami/apache/htdocs/vh/app/Controllers/Portfolio.php(61): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Portfolio->sale_position()
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-12-25 23:58:11 --> Cannot access offset of type string on string
+#0 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Portfolio->sale_position()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#3 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-12-25 23:59:16 --> Cannot access offset of type string on string
+#0 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Portfolio->sale_position()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#3 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-12-25 23:59:58 --> Cannot access offset of type string on string
+#0 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Portfolio->sale_position()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#3 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}

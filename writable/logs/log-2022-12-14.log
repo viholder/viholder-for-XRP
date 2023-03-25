@@ -1,0 +1,9 @@
+CRITICAL - 2022-12-14 13:10:52 --> syntax error, unexpected token "}"
+#0 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render()
+#2 /opt/bitnami/apache/htdocs/vh/app/Controllers/Contracts.php(28): view()
+#3 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Contracts->create()
+#4 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#5 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#6 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}

@@ -1,0 +1,696 @@
+CRITICAL - 2023-01-15 06:12:19 --> La acción que solicitaste no está permitida
+#0 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Security/Security.php(289): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Filters/CSRF.php(53): CodeIgniter\Security\Security->verify()
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Filters/Filters.php(173): CodeIgniter\Filters\CSRF->before()
+#3 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(393): CodeIgniter\Filters\Filters->run()
+#4 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-01-15 06:12:19 --> La acción que solicitaste no está permitida
+#0 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Security/Security.php(289): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Filters/CSRF.php(53): CodeIgniter\Security\Security->verify()
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Filters/Filters.php(173): CodeIgniter\Filters\CSRF->before()
+#3 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(393): CodeIgniter\Filters\Filters->run()
+#4 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-01-15 07:59:43 --> La acción que solicitaste no está permitida
+#0 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Security/Security.php(289): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Filters/CSRF.php(53): CodeIgniter\Security\Security->verify()
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Filters/Filters.php(173): CodeIgniter\Filters\CSRF->before()
+#3 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(393): CodeIgniter\Filters\Filters->run()
+#4 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-01-15 07:59:43 --> La acción que solicitaste no está permitida
+#0 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Security/Security.php(289): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Filters/CSRF.php(53): CodeIgniter\Security\Security->verify()
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Filters/Filters.php(173): CodeIgniter\Filters\CSRF->before()
+#3 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(393): CodeIgniter\Filters\Filters->run()
+#4 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-01-15 07:59:43 --> La acción que solicitaste no está permitida
+#0 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Security/Security.php(289): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Filters/CSRF.php(53): CodeIgniter\Security\Security->verify()
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Filters/Filters.php(173): CodeIgniter\Filters\CSRF->before()
+#3 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(393): CodeIgniter\Filters\Filters->run()
+#4 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-01-15 07:59:49 --> La acción que solicitaste no está permitida
+#0 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Security/Security.php(289): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Filters/CSRF.php(53): CodeIgniter\Security\Security->verify()
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Filters/Filters.php(173): CodeIgniter\Filters\CSRF->before()
+#3 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(393): CodeIgniter\Filters\Filters->run()
+#4 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-01-15 07:59:55 --> La acción que solicitaste no está permitida
+#0 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Security/Security.php(289): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Filters/CSRF.php(53): CodeIgniter\Security\Security->verify()
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Filters/Filters.php(173): CodeIgniter\Filters\CSRF->before()
+#3 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(393): CodeIgniter\Filters\Filters->run()
+#4 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-01-15 08:00:11 --> La acción que solicitaste no está permitida
+#0 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Security/Security.php(289): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Filters/CSRF.php(53): CodeIgniter\Security\Security->verify()
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Filters/Filters.php(173): CodeIgniter\Filters\CSRF->before()
+#3 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(393): CodeIgniter\Filters\Filters->run()
+#4 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-01-15 08:00:11 --> La acción que solicitaste no está permitida
+#0 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Security/Security.php(289): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Filters/CSRF.php(53): CodeIgniter\Security\Security->verify()
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Filters/Filters.php(173): CodeIgniter\Filters\CSRF->before()
+#3 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(393): CodeIgniter\Filters\Filters->run()
+#4 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-01-15 18:41:46 --> La acción que solicitaste no está permitida
+#0 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Security/Security.php(289): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Filters/CSRF.php(53): CodeIgniter\Security\Security->verify()
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Filters/Filters.php(173): CodeIgniter\Filters\CSRF->before()
+#3 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(393): CodeIgniter\Filters\Filters->run()
+#4 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-01-15 19:04:53 --> La acción que solicitaste no está permitida
+#0 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Security/Security.php(289): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Filters/CSRF.php(53): CodeIgniter\Security\Security->verify()
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Filters/Filters.php(173): CodeIgniter\Filters\CSRF->before()
+#3 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(393): CodeIgniter\Filters\Filters->run()
+#4 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-01-15 19:04:53 --> La acción que solicitaste no está permitida
+#0 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Security/Security.php(289): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Filters/CSRF.php(53): CodeIgniter\Security\Security->verify()
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Filters/Filters.php(173): CodeIgniter\Filters\CSRF->before()
+#3 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(393): CodeIgniter\Filters\Filters->run()
+#4 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-01-15 19:05:00 --> La acción que solicitaste no está permitida
+#0 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Security/Security.php(289): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Filters/CSRF.php(53): CodeIgniter\Security\Security->verify()
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Filters/Filters.php(173): CodeIgniter\Filters\CSRF->before()
+#3 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(393): CodeIgniter\Filters\Filters->run()
+#4 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-01-15 19:05:03 --> La acción que solicitaste no está permitida
+#0 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Security/Security.php(289): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Filters/CSRF.php(53): CodeIgniter\Security\Security->verify()
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Filters/Filters.php(173): CodeIgniter\Filters\CSRF->before()
+#3 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(393): CodeIgniter\Filters\Filters->run()
+#4 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-01-15 19:05:08 --> La acción que solicitaste no está permitida
+#0 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Security/Security.php(289): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Filters/CSRF.php(53): CodeIgniter\Security\Security->verify()
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Filters/Filters.php(173): CodeIgniter\Filters\CSRF->before()
+#3 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(393): CodeIgniter\Filters\Filters->run()
+#4 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-01-15 19:05:13 --> La acción que solicitaste no está permitida
+#0 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Security/Security.php(289): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Filters/CSRF.php(53): CodeIgniter\Security\Security->verify()
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Filters/Filters.php(173): CodeIgniter\Filters\CSRF->before()
+#3 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(393): CodeIgniter\Filters\Filters->run()
+#4 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-01-15 19:05:18 --> La acción que solicitaste no está permitida
+#0 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Security/Security.php(289): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Filters/CSRF.php(53): CodeIgniter\Security\Security->verify()
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Filters/Filters.php(173): CodeIgniter\Filters\CSRF->before()
+#3 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(393): CodeIgniter\Filters\Filters->run()
+#4 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-01-15 19:05:18 --> La acción que solicitaste no está permitida
+#0 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Security/Security.php(289): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Filters/CSRF.php(53): CodeIgniter\Security\Security->verify()
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Filters/Filters.php(173): CodeIgniter\Filters\CSRF->before()
+#3 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(393): CodeIgniter\Filters\Filters->run()
+#4 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-01-15 19:05:23 --> La acción que solicitaste no está permitida
+#0 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Security/Security.php(289): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Filters/CSRF.php(53): CodeIgniter\Security\Security->verify()
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Filters/Filters.php(173): CodeIgniter\Filters\CSRF->before()
+#3 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(393): CodeIgniter\Filters\Filters->run()
+#4 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-01-15 19:05:30 --> La acción que solicitaste no está permitida
+#0 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Security/Security.php(289): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Filters/CSRF.php(53): CodeIgniter\Security\Security->verify()
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Filters/Filters.php(173): CodeIgniter\Filters\CSRF->before()
+#3 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(393): CodeIgniter\Filters\Filters->run()
+#4 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-01-15 19:05:35 --> La acción que solicitaste no está permitida
+#0 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Security/Security.php(289): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Filters/CSRF.php(53): CodeIgniter\Security\Security->verify()
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Filters/Filters.php(173): CodeIgniter\Filters\CSRF->before()
+#3 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(393): CodeIgniter\Filters\Filters->run()
+#4 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-01-15 19:05:40 --> La acción que solicitaste no está permitida
+#0 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Security/Security.php(289): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Filters/CSRF.php(53): CodeIgniter\Security\Security->verify()
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Filters/Filters.php(173): CodeIgniter\Filters\CSRF->before()
+#3 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(393): CodeIgniter\Filters\Filters->run()
+#4 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-01-15 19:05:43 --> La acción que solicitaste no está permitida
+#0 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Security/Security.php(289): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Filters/CSRF.php(53): CodeIgniter\Security\Security->verify()
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Filters/Filters.php(173): CodeIgniter\Filters\CSRF->before()
+#3 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(393): CodeIgniter\Filters\Filters->run()
+#4 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-01-15 19:05:45 --> La acción que solicitaste no está permitida
+#0 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Security/Security.php(289): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Filters/CSRF.php(53): CodeIgniter\Security\Security->verify()
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Filters/Filters.php(173): CodeIgniter\Filters\CSRF->before()
+#3 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(393): CodeIgniter\Filters\Filters->run()
+#4 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-01-15 19:05:58 --> La acción que solicitaste no está permitida
+#0 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Security/Security.php(289): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Filters/CSRF.php(53): CodeIgniter\Security\Security->verify()
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Filters/Filters.php(173): CodeIgniter\Filters\CSRF->before()
+#3 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(393): CodeIgniter\Filters\Filters->run()
+#4 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-01-15 19:06:03 --> La acción que solicitaste no está permitida
+#0 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Security/Security.php(289): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Filters/CSRF.php(53): CodeIgniter\Security\Security->verify()
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Filters/Filters.php(173): CodeIgniter\Filters\CSRF->before()
+#3 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(393): CodeIgniter\Filters\Filters->run()
+#4 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-01-15 19:06:08 --> La acción que solicitaste no está permitida
+#0 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Security/Security.php(289): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Filters/CSRF.php(53): CodeIgniter\Security\Security->verify()
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Filters/Filters.php(173): CodeIgniter\Filters\CSRF->before()
+#3 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(393): CodeIgniter\Filters\Filters->run()
+#4 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-01-15 19:06:08 --> La acción que solicitaste no está permitida
+#0 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Security/Security.php(289): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Filters/CSRF.php(53): CodeIgniter\Security\Security->verify()
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Filters/Filters.php(173): CodeIgniter\Filters\CSRF->before()
+#3 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(393): CodeIgniter\Filters\Filters->run()
+#4 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-01-15 19:10:40 --> La acción que solicitaste no está permitida
+#0 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Security/Security.php(289): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Filters/CSRF.php(53): CodeIgniter\Security\Security->verify()
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Filters/Filters.php(173): CodeIgniter\Filters\CSRF->before()
+#3 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(393): CodeIgniter\Filters\Filters->run()
+#4 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-01-15 19:10:40 --> La acción que solicitaste no está permitida
+#0 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Security/Security.php(289): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Filters/CSRF.php(53): CodeIgniter\Security\Security->verify()
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Filters/Filters.php(173): CodeIgniter\Filters\CSRF->before()
+#3 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(393): CodeIgniter\Filters\Filters->run()
+#4 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-01-15 19:10:43 --> La acción que solicitaste no está permitida
+#0 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Security/Security.php(289): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Filters/CSRF.php(53): CodeIgniter\Security\Security->verify()
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Filters/Filters.php(173): CodeIgniter\Filters\CSRF->before()
+#3 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(393): CodeIgniter\Filters\Filters->run()
+#4 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-01-15 19:10:48 --> La acción que solicitaste no está permitida
+#0 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Security/Security.php(289): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Filters/CSRF.php(53): CodeIgniter\Security\Security->verify()
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Filters/Filters.php(173): CodeIgniter\Filters\CSRF->before()
+#3 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(393): CodeIgniter\Filters\Filters->run()
+#4 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-01-15 19:10:53 --> La acción que solicitaste no está permitida
+#0 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Security/Security.php(289): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Filters/CSRF.php(53): CodeIgniter\Security\Security->verify()
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Filters/Filters.php(173): CodeIgniter\Filters\CSRF->before()
+#3 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(393): CodeIgniter\Filters\Filters->run()
+#4 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-01-15 19:10:58 --> La acción que solicitaste no está permitida
+#0 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Security/Security.php(289): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Filters/CSRF.php(53): CodeIgniter\Security\Security->verify()
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Filters/Filters.php(173): CodeIgniter\Filters\CSRF->before()
+#3 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(393): CodeIgniter\Filters\Filters->run()
+#4 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-01-15 19:11:03 --> La acción que solicitaste no está permitida
+#0 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Security/Security.php(289): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Filters/CSRF.php(53): CodeIgniter\Security\Security->verify()
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Filters/Filters.php(173): CodeIgniter\Filters\CSRF->before()
+#3 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(393): CodeIgniter\Filters\Filters->run()
+#4 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-01-15 19:11:03 --> La acción que solicitaste no está permitida
+#0 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Security/Security.php(289): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Filters/CSRF.php(53): CodeIgniter\Security\Security->verify()
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Filters/Filters.php(173): CodeIgniter\Filters\CSRF->before()
+#3 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(393): CodeIgniter\Filters\Filters->run()
+#4 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-01-15 19:11:08 --> La acción que solicitaste no está permitida
+#0 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Security/Security.php(289): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Filters/CSRF.php(53): CodeIgniter\Security\Security->verify()
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Filters/Filters.php(173): CodeIgniter\Filters\CSRF->before()
+#3 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(393): CodeIgniter\Filters\Filters->run()
+#4 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-01-15 19:11:13 --> La acción que solicitaste no está permitida
+#0 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Security/Security.php(289): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Filters/CSRF.php(53): CodeIgniter\Security\Security->verify()
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Filters/Filters.php(173): CodeIgniter\Filters\CSRF->before()
+#3 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(393): CodeIgniter\Filters\Filters->run()
+#4 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-01-15 19:11:20 --> La acción que solicitaste no está permitida
+#0 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Security/Security.php(289): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Filters/CSRF.php(53): CodeIgniter\Security\Security->verify()
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Filters/Filters.php(173): CodeIgniter\Filters\CSRF->before()
+#3 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(393): CodeIgniter\Filters\Filters->run()
+#4 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-01-15 19:11:24 --> La acción que solicitaste no está permitida
+#0 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Security/Security.php(289): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Filters/CSRF.php(53): CodeIgniter\Security\Security->verify()
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Filters/Filters.php(173): CodeIgniter\Filters\CSRF->before()
+#3 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(393): CodeIgniter\Filters\Filters->run()
+#4 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-01-15 19:11:29 --> La acción que solicitaste no está permitida
+#0 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Security/Security.php(289): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Filters/CSRF.php(53): CodeIgniter\Security\Security->verify()
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Filters/Filters.php(173): CodeIgniter\Filters\CSRF->before()
+#3 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(393): CodeIgniter\Filters\Filters->run()
+#4 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-01-15 19:11:29 --> La acción que solicitaste no está permitida
+#0 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Security/Security.php(289): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Filters/CSRF.php(53): CodeIgniter\Security\Security->verify()
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Filters/Filters.php(173): CodeIgniter\Filters\CSRF->before()
+#3 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(393): CodeIgniter\Filters\Filters->run()
+#4 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-01-15 19:11:36 --> La acción que solicitaste no está permitida
+#0 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Security/Security.php(289): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Filters/CSRF.php(53): CodeIgniter\Security\Security->verify()
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Filters/Filters.php(173): CodeIgniter\Filters\CSRF->before()
+#3 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(393): CodeIgniter\Filters\Filters->run()
+#4 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-01-15 19:11:39 --> La acción que solicitaste no está permitida
+#0 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Security/Security.php(289): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Filters/CSRF.php(53): CodeIgniter\Security\Security->verify()
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Filters/Filters.php(173): CodeIgniter\Filters\CSRF->before()
+#3 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(393): CodeIgniter\Filters\Filters->run()
+#4 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-01-15 19:11:44 --> La acción que solicitaste no está permitida
+#0 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Security/Security.php(289): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Filters/CSRF.php(53): CodeIgniter\Security\Security->verify()
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Filters/Filters.php(173): CodeIgniter\Filters\CSRF->before()
+#3 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(393): CodeIgniter\Filters\Filters->run()
+#4 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-01-15 19:19:36 --> La acción que solicitaste no está permitida
+#0 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Security/Security.php(289): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Filters/CSRF.php(53): CodeIgniter\Security\Security->verify()
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Filters/Filters.php(173): CodeIgniter\Filters\CSRF->before()
+#3 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(393): CodeIgniter\Filters\Filters->run()
+#4 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-01-15 19:19:36 --> La acción que solicitaste no está permitida
+#0 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Security/Security.php(289): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Filters/CSRF.php(53): CodeIgniter\Security\Security->verify()
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Filters/Filters.php(173): CodeIgniter\Filters\CSRF->before()
+#3 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(393): CodeIgniter\Filters\Filters->run()
+#4 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-01-15 19:19:42 --> La acción que solicitaste no está permitida
+#0 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Security/Security.php(289): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Filters/CSRF.php(53): CodeIgniter\Security\Security->verify()
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Filters/Filters.php(173): CodeIgniter\Filters\CSRF->before()
+#3 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(393): CodeIgniter\Filters\Filters->run()
+#4 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-01-15 19:21:28 --> La acción que solicitaste no está permitida
+#0 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Security/Security.php(289): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Filters/CSRF.php(53): CodeIgniter\Security\Security->verify()
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Filters/Filters.php(173): CodeIgniter\Filters\CSRF->before()
+#3 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(393): CodeIgniter\Filters\Filters->run()
+#4 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-01-15 19:21:28 --> La acción que solicitaste no está permitida
+#0 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Security/Security.php(289): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Filters/CSRF.php(53): CodeIgniter\Security\Security->verify()
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Filters/Filters.php(173): CodeIgniter\Filters\CSRF->before()
+#3 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(393): CodeIgniter\Filters\Filters->run()
+#4 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-01-15 19:21:34 --> La acción que solicitaste no está permitida
+#0 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Security/Security.php(289): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Filters/CSRF.php(53): CodeIgniter\Security\Security->verify()
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Filters/Filters.php(173): CodeIgniter\Filters\CSRF->before()
+#3 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(393): CodeIgniter\Filters\Filters->run()
+#4 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-01-15 19:21:38 --> La acción que solicitaste no está permitida
+#0 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Security/Security.php(289): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Filters/CSRF.php(53): CodeIgniter\Security\Security->verify()
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Filters/Filters.php(173): CodeIgniter\Filters\CSRF->before()
+#3 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(393): CodeIgniter\Filters\Filters->run()
+#4 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-01-15 19:21:44 --> La acción que solicitaste no está permitida
+#0 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Security/Security.php(289): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Filters/CSRF.php(53): CodeIgniter\Security\Security->verify()
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Filters/Filters.php(173): CodeIgniter\Filters\CSRF->before()
+#3 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(393): CodeIgniter\Filters\Filters->run()
+#4 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-01-15 19:21:49 --> La acción que solicitaste no está permitida
+#0 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Security/Security.php(289): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Filters/CSRF.php(53): CodeIgniter\Security\Security->verify()
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Filters/Filters.php(173): CodeIgniter\Filters\CSRF->before()
+#3 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(393): CodeIgniter\Filters\Filters->run()
+#4 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-01-15 19:23:13 --> La acción que solicitaste no está permitida
+#0 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Security/Security.php(289): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Filters/CSRF.php(53): CodeIgniter\Security\Security->verify()
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Filters/Filters.php(173): CodeIgniter\Filters\CSRF->before()
+#3 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(393): CodeIgniter\Filters\Filters->run()
+#4 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-01-15 19:23:13 --> La acción que solicitaste no está permitida
+#0 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Security/Security.php(289): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Filters/CSRF.php(53): CodeIgniter\Security\Security->verify()
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Filters/Filters.php(173): CodeIgniter\Filters\CSRF->before()
+#3 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(393): CodeIgniter\Filters\Filters->run()
+#4 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-01-15 19:23:17 --> La acción que solicitaste no está permitida
+#0 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Security/Security.php(289): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Filters/CSRF.php(53): CodeIgniter\Security\Security->verify()
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Filters/Filters.php(173): CodeIgniter\Filters\CSRF->before()
+#3 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(393): CodeIgniter\Filters\Filters->run()
+#4 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-01-15 19:23:22 --> La acción que solicitaste no está permitida
+#0 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Security/Security.php(289): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Filters/CSRF.php(53): CodeIgniter\Security\Security->verify()
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Filters/Filters.php(173): CodeIgniter\Filters\CSRF->before()
+#3 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(393): CodeIgniter\Filters\Filters->run()
+#4 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-01-15 19:23:28 --> La acción que solicitaste no está permitida
+#0 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Security/Security.php(289): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Filters/CSRF.php(53): CodeIgniter\Security\Security->verify()
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Filters/Filters.php(173): CodeIgniter\Filters\CSRF->before()
+#3 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(393): CodeIgniter\Filters\Filters->run()
+#4 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-01-15 19:23:33 --> La acción que solicitaste no está permitida
+#0 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Security/Security.php(289): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Filters/CSRF.php(53): CodeIgniter\Security\Security->verify()
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Filters/Filters.php(173): CodeIgniter\Filters\CSRF->before()
+#3 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(393): CodeIgniter\Filters\Filters->run()
+#4 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-01-15 19:23:37 --> La acción que solicitaste no está permitida
+#0 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Security/Security.php(289): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Filters/CSRF.php(53): CodeIgniter\Security\Security->verify()
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Filters/Filters.php(173): CodeIgniter\Filters\CSRF->before()
+#3 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(393): CodeIgniter\Filters\Filters->run()
+#4 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-01-15 19:23:37 --> La acción que solicitaste no está permitida
+#0 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Security/Security.php(289): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Filters/CSRF.php(53): CodeIgniter\Security\Security->verify()
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Filters/Filters.php(173): CodeIgniter\Filters\CSRF->before()
+#3 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(393): CodeIgniter\Filters\Filters->run()
+#4 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-01-15 19:23:43 --> La acción que solicitaste no está permitida
+#0 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Security/Security.php(289): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Filters/CSRF.php(53): CodeIgniter\Security\Security->verify()
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Filters/Filters.php(173): CodeIgniter\Filters\CSRF->before()
+#3 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(393): CodeIgniter\Filters\Filters->run()
+#4 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-01-15 19:23:48 --> La acción que solicitaste no está permitida
+#0 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Security/Security.php(289): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Filters/CSRF.php(53): CodeIgniter\Security\Security->verify()
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Filters/Filters.php(173): CodeIgniter\Filters\CSRF->before()
+#3 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(393): CodeIgniter\Filters\Filters->run()
+#4 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-01-15 19:23:52 --> La acción que solicitaste no está permitida
+#0 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Security/Security.php(289): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Filters/CSRF.php(53): CodeIgniter\Security\Security->verify()
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Filters/Filters.php(173): CodeIgniter\Filters\CSRF->before()
+#3 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(393): CodeIgniter\Filters\Filters->run()
+#4 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-01-15 19:23:57 --> La acción que solicitaste no está permitida
+#0 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Security/Security.php(289): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Filters/CSRF.php(53): CodeIgniter\Security\Security->verify()
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Filters/Filters.php(173): CodeIgniter\Filters\CSRF->before()
+#3 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(393): CodeIgniter\Filters\Filters->run()
+#4 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-01-15 22:25:26 --> La acción que solicitaste no está permitida
+#0 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Security/Security.php(289): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Filters/CSRF.php(53): CodeIgniter\Security\Security->verify()
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Filters/Filters.php(173): CodeIgniter\Filters\CSRF->before()
+#3 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(393): CodeIgniter\Filters\Filters->run()
+#4 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-01-15 22:25:26 --> La acción que solicitaste no está permitida
+#0 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Security/Security.php(289): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Filters/CSRF.php(53): CodeIgniter\Security\Security->verify()
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Filters/Filters.php(173): CodeIgniter\Filters\CSRF->before()
+#3 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(393): CodeIgniter\Filters\Filters->run()
+#4 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-01-15 22:25:31 --> La acción que solicitaste no está permitida
+#0 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Security/Security.php(289): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Filters/CSRF.php(53): CodeIgniter\Security\Security->verify()
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Filters/Filters.php(173): CodeIgniter\Filters\CSRF->before()
+#3 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(393): CodeIgniter\Filters\Filters->run()
+#4 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-01-15 22:25:36 --> La acción que solicitaste no está permitida
+#0 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Security/Security.php(289): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Filters/CSRF.php(53): CodeIgniter\Security\Security->verify()
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Filters/Filters.php(173): CodeIgniter\Filters\CSRF->before()
+#3 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(393): CodeIgniter\Filters\Filters->run()
+#4 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-01-15 22:25:54 --> La acción que solicitaste no está permitida
+#0 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Security/Security.php(289): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Filters/CSRF.php(53): CodeIgniter\Security\Security->verify()
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Filters/Filters.php(173): CodeIgniter\Filters\CSRF->before()
+#3 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(393): CodeIgniter\Filters\Filters->run()
+#4 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-01-15 22:25:55 --> La acción que solicitaste no está permitida
+#0 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Security/Security.php(289): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Filters/CSRF.php(53): CodeIgniter\Security\Security->verify()
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Filters/Filters.php(173): CodeIgniter\Filters\CSRF->before()
+#3 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(393): CodeIgniter\Filters\Filters->run()
+#4 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-01-15 22:26:00 --> La acción que solicitaste no está permitida
+#0 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Security/Security.php(289): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Filters/CSRF.php(53): CodeIgniter\Security\Security->verify()
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Filters/Filters.php(173): CodeIgniter\Filters\CSRF->before()
+#3 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(393): CodeIgniter\Filters\Filters->run()
+#4 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-01-15 22:26:09 --> La acción que solicitaste no está permitida
+#0 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Security/Security.php(289): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Filters/CSRF.php(53): CodeIgniter\Security\Security->verify()
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Filters/Filters.php(173): CodeIgniter\Filters\CSRF->before()
+#3 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(393): CodeIgniter\Filters\Filters->run()
+#4 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-01-15 22:26:14 --> La acción que solicitaste no está permitida
+#0 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Security/Security.php(289): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Filters/CSRF.php(53): CodeIgniter\Security\Security->verify()
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Filters/Filters.php(173): CodeIgniter\Filters\CSRF->before()
+#3 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(393): CodeIgniter\Filters\Filters->run()
+#4 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-01-15 22:26:19 --> La acción que solicitaste no está permitida
+#0 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Security/Security.php(289): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Filters/CSRF.php(53): CodeIgniter\Security\Security->verify()
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Filters/Filters.php(173): CodeIgniter\Filters\CSRF->before()
+#3 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(393): CodeIgniter\Filters\Filters->run()
+#4 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-01-15 22:26:19 --> La acción que solicitaste no está permitida
+#0 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Security/Security.php(289): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Filters/CSRF.php(53): CodeIgniter\Security\Security->verify()
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Filters/Filters.php(173): CodeIgniter\Filters\CSRF->before()
+#3 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(393): CodeIgniter\Filters\Filters->run()
+#4 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-01-15 22:26:24 --> La acción que solicitaste no está permitida
+#0 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Security/Security.php(289): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Filters/CSRF.php(53): CodeIgniter\Security\Security->verify()
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Filters/Filters.php(173): CodeIgniter\Filters\CSRF->before()
+#3 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(393): CodeIgniter\Filters\Filters->run()
+#4 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-01-15 22:26:29 --> La acción que solicitaste no está permitida
+#0 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Security/Security.php(289): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Filters/CSRF.php(53): CodeIgniter\Security\Security->verify()
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Filters/Filters.php(173): CodeIgniter\Filters\CSRF->before()
+#3 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(393): CodeIgniter\Filters\Filters->run()
+#4 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-01-15 22:26:34 --> La acción que solicitaste no está permitida
+#0 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Security/Security.php(289): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Filters/CSRF.php(53): CodeIgniter\Security\Security->verify()
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Filters/Filters.php(173): CodeIgniter\Filters\CSRF->before()
+#3 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(393): CodeIgniter\Filters\Filters->run()
+#4 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-01-15 22:26:39 --> La acción que solicitaste no está permitida
+#0 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Security/Security.php(289): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Filters/CSRF.php(53): CodeIgniter\Security\Security->verify()
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Filters/Filters.php(173): CodeIgniter\Filters\CSRF->before()
+#3 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(393): CodeIgniter\Filters\Filters->run()
+#4 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-01-15 22:26:50 --> La acción que solicitaste no está permitida
+#0 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Security/Security.php(289): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Filters/CSRF.php(53): CodeIgniter\Security\Security->verify()
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Filters/Filters.php(173): CodeIgniter\Filters\CSRF->before()
+#3 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(393): CodeIgniter\Filters\Filters->run()
+#4 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-01-15 22:26:50 --> La acción que solicitaste no está permitida
+#0 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Security/Security.php(289): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Filters/CSRF.php(53): CodeIgniter\Security\Security->verify()
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Filters/Filters.php(173): CodeIgniter\Filters\CSRF->before()
+#3 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(393): CodeIgniter\Filters\Filters->run()
+#4 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-01-15 22:26:55 --> La acción que solicitaste no está permitida
+#0 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Security/Security.php(289): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Filters/CSRF.php(53): CodeIgniter\Security\Security->verify()
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Filters/Filters.php(173): CodeIgniter\Filters\CSRF->before()
+#3 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(393): CodeIgniter\Filters\Filters->run()
+#4 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-01-15 22:27:00 --> La acción que solicitaste no está permitida
+#0 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Security/Security.php(289): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Filters/CSRF.php(53): CodeIgniter\Security\Security->verify()
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Filters/Filters.php(173): CodeIgniter\Filters\CSRF->before()
+#3 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(393): CodeIgniter\Filters\Filters->run()
+#4 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-01-15 22:27:05 --> La acción que solicitaste no está permitida
+#0 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Security/Security.php(289): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Filters/CSRF.php(53): CodeIgniter\Security\Security->verify()
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Filters/Filters.php(173): CodeIgniter\Filters\CSRF->before()
+#3 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(393): CodeIgniter\Filters\Filters->run()
+#4 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-01-15 22:27:10 --> La acción que solicitaste no está permitida
+#0 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Security/Security.php(289): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Filters/CSRF.php(53): CodeIgniter\Security\Security->verify()
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Filters/Filters.php(173): CodeIgniter\Filters\CSRF->before()
+#3 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(393): CodeIgniter\Filters\Filters->run()
+#4 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}

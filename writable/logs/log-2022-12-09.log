@@ -1,0 +1,27 @@
+CRITICAL - 2022-12-09 00:16:15 --> Undefined constant "App\Controllers\total_invested"
+#0 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Portfolio->gain_loss()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#3 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-12-09 00:16:38 --> Undefined constant "App\Controllers\total_invested"
+#0 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Portfolio->gain_loss()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#3 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-12-09 00:17:03 --> Undefined constant "App\Controllers\total_invested"
+#0 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Portfolio->gain_loss()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#3 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-12-09 23:25:19 --> Archivo inválido: exchange/contracts.php
+#0 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render()
+#2 /opt/bitnami/apache/htdocs/vh/app/Controllers/Contracts.php(17): view()
+#3 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Contracts->index()
+#4 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#5 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#6 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}

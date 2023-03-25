@@ -1,0 +1,153 @@
+ERROR - 2022-12-11 00:26:28 --> Column 'valoration' cannot be null
+CRITICAL - 2022-12-11 00:26:28 --> Column 'valoration' cannot be null
+#0 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query()
+#4 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/BaseModel.php(738): CodeIgniter\Model->doInsert()
+#6 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Model.php(625): CodeIgniter\BaseModel->insert()
+#7 /opt/bitnami/apache/htdocs/vh/app/Models/BaseModel.php(46): CodeIgniter\Model->insert()
+#8 /opt/bitnami/apache/htdocs/vh/app/Controllers/Contracts.php(44): App\Models\BaseModel->create()
+#9 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Contracts->save()
+#10 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#11 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#12 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2022-12-11 00:27:00 --> Column 'valoration' cannot be null
+CRITICAL - 2022-12-11 00:27:00 --> Column 'valoration' cannot be null
+#0 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query()
+#4 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/BaseModel.php(738): CodeIgniter\Model->doInsert()
+#6 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Model.php(625): CodeIgniter\BaseModel->insert()
+#7 /opt/bitnami/apache/htdocs/vh/app/Models/BaseModel.php(46): CodeIgniter\Model->insert()
+#8 /opt/bitnami/apache/htdocs/vh/app/Controllers/Contracts.php(44): App\Models\BaseModel->create()
+#9 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Contracts->save()
+#10 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#11 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#12 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2022-12-11 00:28:24 --> Column 'valoration' cannot be null
+CRITICAL - 2022-12-11 00:28:24 --> Column 'valoration' cannot be null
+#0 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query()
+#4 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/BaseModel.php(738): CodeIgniter\Model->doInsert()
+#6 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Model.php(625): CodeIgniter\BaseModel->insert()
+#7 /opt/bitnami/apache/htdocs/vh/app/Models/BaseModel.php(46): CodeIgniter\Model->insert()
+#8 /opt/bitnami/apache/htdocs/vh/app/Controllers/Contracts.php(44): App\Models\BaseModel->create()
+#9 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Contracts->save()
+#10 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#11 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#12 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2022-12-11 00:29:10 --> Column 'unit_value' cannot be null
+CRITICAL - 2022-12-11 00:29:10 --> Column 'unit_value' cannot be null
+#0 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query()
+#4 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/BaseModel.php(738): CodeIgniter\Model->doInsert()
+#6 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Model.php(625): CodeIgniter\BaseModel->insert()
+#7 /opt/bitnami/apache/htdocs/vh/app/Models/BaseModel.php(46): CodeIgniter\Model->insert()
+#8 /opt/bitnami/apache/htdocs/vh/app/Controllers/Contracts.php(44): App\Models\BaseModel->create()
+#9 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Contracts->save()
+#10 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#11 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#12 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2022-12-11 00:29:55 --> Column 'unit_value' cannot be null
+CRITICAL - 2022-12-11 00:29:55 --> Column 'unit_value' cannot be null
+#0 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query()
+#4 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/BaseModel.php(738): CodeIgniter\Model->doInsert()
+#6 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Model.php(625): CodeIgniter\BaseModel->insert()
+#7 /opt/bitnami/apache/htdocs/vh/app/Models/BaseModel.php(46): CodeIgniter\Model->insert()
+#8 /opt/bitnami/apache/htdocs/vh/app/Controllers/Contracts.php(44): App\Models\BaseModel->create()
+#9 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Contracts->save()
+#10 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#11 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#12 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2022-12-11 00:31:00 --> Column 'starting_date' cannot be null
+CRITICAL - 2022-12-11 00:31:00 --> Column 'starting_date' cannot be null
+#0 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query()
+#4 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/BaseModel.php(738): CodeIgniter\Model->doInsert()
+#6 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Model.php(625): CodeIgniter\BaseModel->insert()
+#7 /opt/bitnami/apache/htdocs/vh/app/Models/BaseModel.php(46): CodeIgniter\Model->insert()
+#8 /opt/bitnami/apache/htdocs/vh/app/Controllers/Contracts.php(44): App\Models\BaseModel->create()
+#9 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Contracts->save()
+#10 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#11 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#12 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2022-12-11 07:59:41 --> syntax error, unexpected token "<"
+#0 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render()
+#2 /opt/bitnami/apache/htdocs/vh/app/Controllers/Contracts.php(25): view()
+#3 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Contracts->create()
+#4 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#5 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#6 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2022-12-11 16:36:38 --> Column 'lifetime_days' cannot be null
+CRITICAL - 2022-12-11 16:36:38 --> Column 'lifetime_days' cannot be null
+#0 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query()
+#4 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/BaseModel.php(738): CodeIgniter\Model->doInsert()
+#6 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Model.php(625): CodeIgniter\BaseModel->insert()
+#7 /opt/bitnami/apache/htdocs/vh/app/Models/BaseModel.php(46): CodeIgniter\Model->insert()
+#8 /opt/bitnami/apache/htdocs/vh/app/Controllers/Contracts.php(53): App\Models\BaseModel->create()
+#9 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Contracts->save()
+#10 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#11 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#12 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2022-12-11 16:40:55 --> Column 'is_smart_contract' cannot be null
+CRITICAL - 2022-12-11 16:40:55 --> Column 'is_smart_contract' cannot be null
+#0 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query()
+#4 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/BaseModel.php(738): CodeIgniter\Model->doInsert()
+#6 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Model.php(625): CodeIgniter\BaseModel->insert()
+#7 /opt/bitnami/apache/htdocs/vh/app/Models/BaseModel.php(46): CodeIgniter\Model->insert()
+#8 /opt/bitnami/apache/htdocs/vh/app/Controllers/Contracts.php(53): App\Models\BaseModel->create()
+#9 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Contracts->save()
+#10 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#11 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#12 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2022-12-11 16:44:02 --> Column 'network' cannot be null
+CRITICAL - 2022-12-11 16:44:02 --> Column 'network' cannot be null
+#0 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query()
+#4 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/BaseModel.php(738): CodeIgniter\Model->doInsert()
+#6 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Model.php(625): CodeIgniter\BaseModel->insert()
+#7 /opt/bitnami/apache/htdocs/vh/app/Models/BaseModel.php(46): CodeIgniter\Model->insert()
+#8 /opt/bitnami/apache/htdocs/vh/app/Controllers/Contracts.php(54): App\Models\BaseModel->create()
+#9 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Contracts->save()
+#10 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#11 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#12 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}

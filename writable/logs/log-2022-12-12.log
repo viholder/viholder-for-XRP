@@ -1,0 +1,649 @@
+CRITICAL - 2022-12-12 16:01:55 --> Undefined variable $id
+#0 /opt/bitnami/apache/htdocs/vh/app/Controllers/Contracts.php(70): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Contracts->save()
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-12-12 16:11:28 --> Class "App\Controllers\UserModel" not found
+#0 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Contracts->save()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#3 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-12-12 16:46:15 --> Call to a member function hasMoved() on null
+#0 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Contracts->save()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#3 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-12-12 16:53:31 --> Call to a member function store() on null
+#0 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Contracts->save()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#3 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-12-12 16:54:03 --> Call to a member function store() on null
+#0 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Contracts->save()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#3 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-12-12 17:03:07 --> Undefined variable $_page
+#0 /opt/bitnami/apache/htdocs/vh/app/Views/admin/layout/default.php(6): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/View/View.php(210): include('...')
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/View/View.php(226): CodeIgniter\View\View->render()
+#4 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render()
+#5 /opt/bitnami/apache/htdocs/vh/app/Controllers/Contracts.php(25): view()
+#6 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Contracts->create()
+#7 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#8 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#9 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-12-12 17:03:08 --> Undefined variable $_page
+#0 /opt/bitnami/apache/htdocs/vh/app/Views/admin/layout/default.php(6): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/View/View.php(210): include('...')
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/View/View.php(226): CodeIgniter\View\View->render()
+#4 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render()
+#5 /opt/bitnami/apache/htdocs/vh/app/Controllers/Contracts.php(17): view()
+#6 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Contracts->index()
+#7 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#8 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#9 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-12-12 17:03:13 --> Undefined variable $_page
+#0 /opt/bitnami/apache/htdocs/vh/app/Views/admin/layout/default.php(6): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/View/View.php(210): include('...')
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/View/View.php(226): CodeIgniter\View\View->render()
+#4 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render()
+#5 /opt/bitnami/apache/htdocs/vh/app/Controllers/Contracts.php(17): view()
+#6 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Contracts->index()
+#7 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#8 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#9 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-12-12 17:03:30 --> Undefined variable $_page
+#0 /opt/bitnami/apache/htdocs/vh/app/Views/admin/layout/default.php(6): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/View/View.php(210): include('...')
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/View/View.php(226): CodeIgniter\View\View->render()
+#4 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render()
+#5 /opt/bitnami/apache/htdocs/vh/app/Controllers/Contracts.php(17): view()
+#6 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Contracts->index()
+#7 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#8 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#9 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-12-12 17:03:36 --> Undefined variable $_page
+#0 /opt/bitnami/apache/htdocs/vh/app/Views/admin/layout/default.php(6): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/View/View.php(210): include('...')
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/View/View.php(226): CodeIgniter\View\View->render()
+#4 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render()
+#5 /opt/bitnami/apache/htdocs/vh/app/Controllers/Contracts.php(17): view()
+#6 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Contracts->index()
+#7 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#8 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#9 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-12-12 17:03:52 --> Undefined variable $_page
+#0 /opt/bitnami/apache/htdocs/vh/app/Views/admin/layout/default.php(6): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/View/View.php(210): include('...')
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/View/View.php(226): CodeIgniter\View\View->render()
+#4 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render()
+#5 /opt/bitnami/apache/htdocs/vh/app/Controllers/Contracts.php(17): view()
+#6 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Contracts->index()
+#7 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#8 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#9 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-12-12 17:03:57 --> Undefined variable $_page
+#0 /opt/bitnami/apache/htdocs/vh/app/Views/admin/layout/default.php(6): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/View/View.php(210): include('...')
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/View/View.php(226): CodeIgniter\View\View->render()
+#4 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render()
+#5 /opt/bitnami/apache/htdocs/vh/app/Controllers/Contracts.php(17): view()
+#6 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Contracts->index()
+#7 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#8 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#9 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-12-12 17:15:42 --> Undefined property: App\Controllers\Contracts::$
+#0 /opt/bitnami/apache/htdocs/vh/app/Controllers/Contracts.php(63): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Contracts->save()
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-12-12 17:16:59 --> Undefined constant "App\Controllers\img"
+#0 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Contracts->save()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#3 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-12-12 17:17:15 --> Undefined constant "App\Controllers\img"
+#0 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Contracts->save()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#3 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-12-12 17:17:31 --> Undefined constant "App\Controllers\img"
+#0 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Contracts->save()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#3 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-12-12 17:21:10 --> Undefined variable $validationRule
+#0 /opt/bitnami/apache/htdocs/vh/app/Controllers/Contracts.php(62): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Contracts->save()
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-12-12 17:21:25 --> Undefined variable $validationRule
+#0 /opt/bitnami/apache/htdocs/vh/app/Controllers/Contracts.php(62): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Contracts->save()
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-12-12 17:22:17 --> Archivo inválido: upload_form.php
+#0 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render()
+#2 /opt/bitnami/apache/htdocs/vh/app/Controllers/Contracts.php(77): view()
+#3 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Contracts->save()
+#4 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#5 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#6 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-12-12 17:23:12 --> Archivo inválido: upload_form.php
+#0 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render()
+#2 /opt/bitnami/apache/htdocs/vh/app/Controllers/Contracts.php(77): view()
+#3 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Contracts->save()
+#4 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#5 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#6 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-12-12 17:23:35 --> Archivo inválido: contracts.php
+#0 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render()
+#2 /opt/bitnami/apache/htdocs/vh/app/Controllers/Contracts.php(77): view()
+#3 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Contracts->save()
+#4 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#5 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#6 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-12-12 17:29:24 --> Call to a member function move() on null
+#0 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Contracts->save()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#3 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-12-12 17:33:04 --> Undefined array key "image"
+#0 /opt/bitnami/apache/htdocs/vh/app/Controllers/Contracts.php(59): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Contracts->save()
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-12-12 17:34:04 --> Undefined array key "image"
+#0 /opt/bitnami/apache/htdocs/vh/app/Controllers/Contracts.php(59): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Contracts->save()
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-12-12 17:35:49 --> Column 'contract_name' cannot be null
+CRITICAL - 2022-12-12 17:35:49 --> Column 'contract_name' cannot be null
+#0 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query()
+#4 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/BaseModel.php(738): CodeIgniter\Model->doInsert()
+#6 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Model.php(625): CodeIgniter\BaseModel->insert()
+#7 /opt/bitnami/apache/htdocs/vh/app/Models/BaseModel.php(46): CodeIgniter\Model->insert()
+#8 /opt/bitnami/apache/htdocs/vh/app/Controllers/Contracts.php(59): App\Models\BaseModel->create()
+#9 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Contracts->save()
+#10 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#11 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#12 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2022-12-12 17:37:29 --> Column 'contract_name' cannot be null
+CRITICAL - 2022-12-12 17:37:29 --> Column 'contract_name' cannot be null
+#0 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query()
+#4 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/BaseModel.php(738): CodeIgniter\Model->doInsert()
+#6 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Model.php(625): CodeIgniter\BaseModel->insert()
+#7 /opt/bitnami/apache/htdocs/vh/app/Models/BaseModel.php(46): CodeIgniter\Model->insert()
+#8 /opt/bitnami/apache/htdocs/vh/app/Controllers/Contracts.php(57): App\Models\BaseModel->create()
+#9 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Contracts->save()
+#10 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#11 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#12 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2022-12-12 17:39:30 --> Column 'contract_name' cannot be null
+CRITICAL - 2022-12-12 17:39:30 --> Column 'contract_name' cannot be null
+#0 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query()
+#4 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/BaseModel.php(738): CodeIgniter\Model->doInsert()
+#6 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Model.php(625): CodeIgniter\BaseModel->insert()
+#7 /opt/bitnami/apache/htdocs/vh/app/Models/BaseModel.php(46): CodeIgniter\Model->insert()
+#8 /opt/bitnami/apache/htdocs/vh/app/Controllers/Contracts.php(57): App\Models\BaseModel->create()
+#9 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Contracts->save()
+#10 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#11 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#12 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2022-12-12 17:40:05 --> Column 'contract_name' cannot be null
+CRITICAL - 2022-12-12 17:40:05 --> Column 'contract_name' cannot be null
+#0 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query()
+#4 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/BaseModel.php(738): CodeIgniter\Model->doInsert()
+#6 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Model.php(625): CodeIgniter\BaseModel->insert()
+#7 /opt/bitnami/apache/htdocs/vh/app/Models/BaseModel.php(46): CodeIgniter\Model->insert()
+#8 /opt/bitnami/apache/htdocs/vh/app/Controllers/Contracts.php(57): App\Models\BaseModel->create()
+#9 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Contracts->save()
+#10 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#11 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#12 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2022-12-12 17:57:04 --> Call to a member function move() on null
+#0 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Contracts->save()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#3 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-12-12 18:24:49 --> Archivo inválido: Adminlte\Views\ci_examples/file_uploads.php
+#0 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render()
+#2 /opt/bitnami/apache/htdocs/vh/app/Controllers/Contracts.php(83): view()
+#3 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Contracts->save()
+#4 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#5 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#6 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-12-12 18:25:52 --> Archivo inválido: Adminlte\Views\ci_examples/file_uploads.php
+#0 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render()
+#2 /opt/bitnami/apache/htdocs/vh/app/Controllers/Contracts.php(83): view()
+#3 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Contracts->save()
+#4 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#5 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#6 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-12-12 18:27:16 --> Archivo inválido: Adminlte\Views\ci_examples/file_uploads.php
+#0 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render()
+#2 /opt/bitnami/apache/htdocs/vh/app/Controllers/Contracts.php(83): view()
+#3 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Contracts->save()
+#4 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#5 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#6 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-12-12 18:27:26 --> Archivo inválido: Adminlte\Views\ci_examples/file_uploads.php
+#0 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render()
+#2 /opt/bitnami/apache/htdocs/vh/app/Controllers/Contracts.php(83): view()
+#3 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Contracts->save()
+#4 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#5 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#6 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-12-12 18:28:21 --> Archivo inválido: Adminlte\Views\ci_examples/file_uploads2.php
+#0 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render()
+#2 /opt/bitnami/apache/htdocs/vh/app/Controllers/Contracts.php(83): view()
+#3 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Contracts->save()
+#4 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#5 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#6 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-12-12 18:28:58 --> Archivo inválido: Adminlte\Views\ci_examples/file_uploads2.php
+#0 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render()
+#2 /opt/bitnami/apache/htdocs/vh/app/Controllers/Contracts.php(83): view()
+#3 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Contracts->save()
+#4 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#5 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#6 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-12-12 18:29:04 --> Archivo inválido: Adminlte\Views\ci_examples/file_uploads2.php
+#0 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render()
+#2 /opt/bitnami/apache/htdocs/vh/app/Controllers/Contracts.php(83): view()
+#3 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Contracts->save()
+#4 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#5 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#6 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-12-12 18:29:29 --> Call to a member function move() on null
+#0 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Contracts->save()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#3 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-12-12 18:34:56 --> Undefined variable $uploaded_fileinfo
+#0 /opt/bitnami/apache/htdocs/vh/app/Views/upload_success.php(11): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/View/View.php(210): include('...')
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /opt/bitnami/apache/htdocs/vh/app/Controllers/Upload.php(41): view()
+#5 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Upload->upload()
+#6 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#7 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#8 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-12-12 18:41:48 --> syntax error, unexpected token ";"
+#0 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render()
+#2 /opt/bitnami/apache/htdocs/vh/app/Controllers/Upload.php(31): view()
+#3 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Upload->upload()
+#4 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#5 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#6 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-12-12 18:54:01 --> Undefined variable $uploaded_fileinfo
+#0 /opt/bitnami/apache/htdocs/vh/app/Views/upload_success.php(11): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/View/View.php(210): include('...')
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /opt/bitnami/apache/htdocs/vh/app/Controllers/Upload.php(41): view()
+#5 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Upload->upload()
+#6 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#7 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#8 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-12-12 19:06:49 --> Class "App\Controllers\File" not found
+#0 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Contracts->save()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#3 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-12-12 19:07:41 --> Array to string conversion
+#0 /opt/bitnami/apache/htdocs/vh/app/Views/admin/layout/partials/notification.php(66): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/View/View.php(210): include('...')
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/View/View.php(424): CodeIgniter\View\View->render()
+#4 /opt/bitnami/apache/htdocs/vh/app/Views/admin/layout/default.php(20): CodeIgniter\View\View->include()
+#5 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/View/View.php(210): include('...')
+#6 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/View/View.php(226): CodeIgniter\View\View->render()
+#8 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render()
+#9 /opt/bitnami/apache/htdocs/vh/app/Controllers/Contracts.php(17): view()
+#10 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Contracts->index()
+#11 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#12 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#13 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#14 {main}
+CRITICAL - 2022-12-12 19:25:37 --> Call to undefined method App\Controllers\Contracts::getInsertID()
+#0 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Contracts->save()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#3 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-12-12 19:31:47 --> Call to a member function getInsertID() on int
+#0 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Contracts->save()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#3 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-12-12 19:47:02 --> syntax error, unexpected variable "$validationRule"
+#0 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Router/Router.php(175): CodeIgniter\Router\Router->autoRoute()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(726): CodeIgniter\Router\Router->handle()
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt()
+#3 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-12-12 19:47:03 --> syntax error, unexpected variable "$validationRule"
+#0 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Router/Router.php(175): CodeIgniter\Router\Router->autoRoute()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(726): CodeIgniter\Router\Router->handle()
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt()
+#3 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-12-12 19:47:08 --> syntax error, unexpected variable "$validationRule"
+#0 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Router/Router.php(175): CodeIgniter\Router\Router->autoRoute()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(726): CodeIgniter\Router\Router->handle()
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt()
+#3 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-12-12 19:47:12 --> syntax error, unexpected variable "$validationRule"
+#0 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Router/Router.php(175): CodeIgniter\Router\Router->autoRoute()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(726): CodeIgniter\Router\Router->handle()
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt()
+#3 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-12-12 19:47:18 --> syntax error, unexpected variable "$validationRule"
+#0 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Router/Router.php(175): CodeIgniter\Router\Router->autoRoute()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(726): CodeIgniter\Router\Router->handle()
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt()
+#3 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-12-12 19:47:39 --> Undefined property: App\Controllers\Contracts::$ContractModel
+#0 /opt/bitnami/apache/htdocs/vh/app/Controllers/Contracts.php(60): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Contracts->save()
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-12-12 19:48:08 --> Undefined property: App\Controllers\Contracts::$ContractModel
+#0 /opt/bitnami/apache/htdocs/vh/app/Controllers/Contracts.php(60): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Contracts->save()
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-12-12 19:48:32 --> Call to undefined method App\Controllers\Contracts::getInsertID()
+#0 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Contracts->save()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#3 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-12-12 19:50:30 --> Undefined property: App\Controllers\Contracts::$db
+#0 /opt/bitnami/apache/htdocs/vh/app/Controllers/Contracts.php(60): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Contracts->save()
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-12-12 19:54:37 --> No se pudo mover el archivo php7RUkKP a /opt/bitnami/apache/htdocs/vh//uploads/logos/ (Unknown: file created in the system's temporary directory)
+#0 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/HTTP/Files/UploadedFile.php(149): CodeIgniter\HTTP\Exceptions\HTTPException::forMoveFailed()
+#1 /opt/bitnami/apache/htdocs/vh/app/Controllers/Contracts.php(83): CodeIgniter\HTTP\Files\UploadedFile->move()
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Contracts->save()
+#3 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#4 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-12-12 19:57:47 --> No se pudo mover el archivo phpLMy8bg a /opt/bitnami/apache/htdocs/vh//uploads/logos/ (Unknown: file created in the system's temporary directory)
+#0 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/HTTP/Files/UploadedFile.php(149): CodeIgniter\HTTP\Exceptions\HTTPException::forMoveFailed()
+#1 /opt/bitnami/apache/htdocs/vh/app/Controllers/Contracts.php(83): CodeIgniter\HTTP\Files\UploadedFile->move()
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Contracts->save()
+#3 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#4 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-12-12 20:38:34 --> 100 no es una regla de validación válida.
+#0 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Validation/Validation.php(300): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Validation/Validation.php(157): CodeIgniter\Validation\Validation->processRules()
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Controller.php(160): CodeIgniter\Validation\Validation->run()
+#3 /opt/bitnami/apache/htdocs/vh/app/Controllers/Contracts.php(73): CodeIgniter\Controller->validate()
+#4 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Contracts->save()
+#5 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#6 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#7 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-12-12 20:46:30 --> Array to string conversion
+#0 /opt/bitnami/apache/htdocs/vh/app/Controllers/Contracts.php(77): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Contracts->save()
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-12-12 20:46:58 --> Array to string conversion
+#0 /opt/bitnami/apache/htdocs/vh/app/Controllers/Contracts.php(77): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Contracts->save()
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-12-12 20:52:44 --> Array to string conversion
+#0 /opt/bitnami/apache/htdocs/vh/app/Controllers/Contracts.php(78): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Contracts->save()
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-12-12 20:54:35 -->  no es una regla de validación válida.
+#0 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Validation/Validation.php(300): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Validation/Validation.php(157): CodeIgniter\Validation\Validation->processRules()
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Controller.php(160): CodeIgniter\Validation\Validation->run()
+#3 /opt/bitnami/apache/htdocs/vh/app/Controllers/Contracts.php(76): CodeIgniter\Controller->validate()
+#4 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Contracts->save()
+#5 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#6 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#7 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-12-12 20:55:22 -->  no es una regla de validación válida.
+#0 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Validation/Validation.php(300): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Validation/Validation.php(157): CodeIgniter\Validation\Validation->processRules()
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Controller.php(160): CodeIgniter\Validation\Validation->run()
+#3 /opt/bitnami/apache/htdocs/vh/app/Controllers/Contracts.php(76): CodeIgniter\Controller->validate()
+#4 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Contracts->save()
+#5 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#6 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#7 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-12-12 20:56:04 --> |min_length no es una regla de validación válida.
+#0 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Validation/Validation.php(300): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Validation/Validation.php(157): CodeIgniter\Validation\Validation->processRules()
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Controller.php(160): CodeIgniter\Validation\Validation->run()
+#3 /opt/bitnami/apache/htdocs/vh/app/Controllers/Contracts.php(76): CodeIgniter\Controller->validate()
+#4 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Contracts->save()
+#5 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#6 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#7 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-12-12 20:56:49 --> |min_length no es una regla de validación válida.
+#0 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Validation/Validation.php(300): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Validation/Validation.php(157): CodeIgniter\Validation\Validation->processRules()
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Controller.php(160): CodeIgniter\Validation\Validation->run()
+#3 /opt/bitnami/apache/htdocs/vh/app/Controllers/Contracts.php(76): CodeIgniter\Controller->validate()
+#4 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Contracts->save()
+#5 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#6 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#7 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-12-12 20:58:26 --> Array to string conversion
+#0 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Router/Router.php(518): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Router/Router.php(518): include_once()
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Router/Router.php(175): CodeIgniter\Router\Router->autoRoute()
+#3 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(726): CodeIgniter\Router\Router->handle()
+#4 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt()
+#5 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#6 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-12-12 20:59:36 --> Array to string conversion
+#0 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Router/Router.php(518): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Router/Router.php(518): include_once()
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Router/Router.php(175): CodeIgniter\Router\Router->autoRoute()
+#3 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(726): CodeIgniter\Router\Router->handle()
+#4 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt()
+#5 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#6 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-12-12 21:16:30 --> syntax error, unexpected token "=>"
+#0 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Router/Router.php(175): CodeIgniter\Router\Router->autoRoute()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(726): CodeIgniter\Router\Router->handle()
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt()
+#3 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-12-12 21:23:58 --> Undefined variable $errors
+#0 /opt/bitnami/apache/htdocs/vh/app/Views/exchange/contracts/create.php(21): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/View/View.php(210): include('...')
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /opt/bitnami/apache/htdocs/vh/app/Controllers/Contracts.php(27): view()
+#5 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Contracts->create()
+#6 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#7 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#8 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-12-12 21:27:08 --> Undefined variable $errors
+#0 /opt/bitnami/apache/htdocs/vh/app/Views/exchange/contracts/create.php(22): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/View/View.php(210): include('...')
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /opt/bitnami/apache/htdocs/vh/app/Controllers/Contracts.php(27): view()
+#5 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Contracts->create()
+#6 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#7 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#8 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-12-12 21:30:53 --> Array to string conversion
+#0 /opt/bitnami/apache/htdocs/vh/app/Controllers/Contracts.php(79): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Contracts->save()
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-12-12 21:31:38 --> Array to string conversion
+#0 /opt/bitnami/apache/htdocs/vh/app/Controllers/Contracts.php(79): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Contracts->save()
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-12-12 21:36:17 --> Cannot use isset() on the result of an expression (you can use "null !== expression" instead)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-12-12 21:36:44 --> Archivo inválido: contracts/create.php
+#0 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render()
+#2 /opt/bitnami/apache/htdocs/vh/app/Controllers/Contracts.php(80): view()
+#3 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Contracts->save()
+#4 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#5 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#6 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-12-12 21:46:30 --> Array to string conversion
+#0 /opt/bitnami/apache/htdocs/vh/app/Views/exchange/contracts/create.php(22): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/View/View.php(210): include('...')
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /opt/bitnami/apache/htdocs/vh/app/Controllers/Contracts.php(80): view()
+#5 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Contracts->save()
+#6 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#7 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#8 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-12-12 21:48:24 --> Array to string conversion
+#0 /opt/bitnami/apache/htdocs/vh/app/Views/exchange/contracts/create.php(24): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/View/View.php(210): include('...')
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /opt/bitnami/apache/htdocs/vh/app/Controllers/Contracts.php(80): view()
+#5 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Contracts->save()
+#6 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#7 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#8 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}

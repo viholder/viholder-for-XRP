@@ -1,0 +1,1634 @@
+ERROR - 2022-12-19 00:01:49 --> Column 'ref' cannot be null
+CRITICAL - 2022-12-19 00:01:49 --> Column 'ref' cannot be null
+#0 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query()
+#4 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/BaseModel.php(738): CodeIgniter\Model->doInsert()
+#6 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Model.php(625): CodeIgniter\BaseModel->insert()
+#7 /opt/bitnami/apache/htdocs/vh/app/Models/BaseModel.php(46): CodeIgniter\Model->insert()
+#8 /opt/bitnami/apache/htdocs/vh/app/Models/ActivityLogModel.php(23): App\Models\BaseModel->create()
+#9 /opt/bitnami/apache/htdocs/vh/app/Controllers/Portfolio.php(97): App\Models\ActivityLogModel->add()
+#10 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Portfolio->open_position()
+#11 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#12 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#13 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#14 {main}
+ERROR - 2022-12-19 00:02:05 --> Column 'ref' cannot be null
+CRITICAL - 2022-12-19 00:02:05 --> Column 'ref' cannot be null
+#0 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query()
+#4 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/BaseModel.php(738): CodeIgniter\Model->doInsert()
+#6 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Model.php(625): CodeIgniter\BaseModel->insert()
+#7 /opt/bitnami/apache/htdocs/vh/app/Models/BaseModel.php(46): CodeIgniter\Model->insert()
+#8 /opt/bitnami/apache/htdocs/vh/app/Models/ActivityLogModel.php(23): App\Models\BaseModel->create()
+#9 /opt/bitnami/apache/htdocs/vh/app/Controllers/Portfolio.php(97): App\Models\ActivityLogModel->add()
+#10 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Portfolio->open_position()
+#11 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#12 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#13 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#14 {main}
+ERROR - 2022-12-19 00:02:14 --> Column 'ref' cannot be null
+CRITICAL - 2022-12-19 00:02:14 --> Column 'ref' cannot be null
+#0 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query()
+#4 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/BaseModel.php(738): CodeIgniter\Model->doInsert()
+#6 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Model.php(625): CodeIgniter\BaseModel->insert()
+#7 /opt/bitnami/apache/htdocs/vh/app/Models/BaseModel.php(46): CodeIgniter\Model->insert()
+#8 /opt/bitnami/apache/htdocs/vh/app/Models/ActivityLogModel.php(23): App\Models\BaseModel->create()
+#9 /opt/bitnami/apache/htdocs/vh/app/Controllers/Portfolio.php(97): App\Models\ActivityLogModel->add()
+#10 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Portfolio->open_position()
+#11 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#12 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#13 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#14 {main}
+CRITICAL - 2022-12-19 00:21:23 --> Class "PorfolioModel" not found
+#0 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/View/View.php(210): include()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render()
+#3 /opt/bitnami/apache/htdocs/vh/app/Controllers/ActivityLogs.php(40): view()
+#4 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\ActivityLogs->view()
+#5 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#6 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#7 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-12-19 00:21:40 --> Class "PorfolioModel" not found
+#0 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/View/View.php(210): include()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render()
+#3 /opt/bitnami/apache/htdocs/vh/app/Controllers/ActivityLogs.php(40): view()
+#4 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\ActivityLogs->view()
+#5 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#6 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#7 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-12-19 00:21:53 --> Too few arguments to function App\Controllers\ActivityLogs::view(), 0 passed in /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php on line 832 and exactly 1 expected
+#0 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\ActivityLogs->view()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#3 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-12-19 00:21:58 --> Class "PorfolioModel" not found
+#0 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/View/View.php(210): include()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render()
+#3 /opt/bitnami/apache/htdocs/vh/app/Controllers/ActivityLogs.php(40): view()
+#4 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\ActivityLogs->view()
+#5 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#6 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#7 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-12-19 00:22:17 --> Class "PorfolioModel" not found
+#0 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/View/View.php(210): include()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render()
+#3 /opt/bitnami/apache/htdocs/vh/app/Controllers/ActivityLogs.php(40): view()
+#4 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\ActivityLogs->view()
+#5 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#6 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#7 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-12-19 00:22:20 --> Class "PorfolioModel" not found
+#0 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/View/View.php(210): include()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render()
+#3 /opt/bitnami/apache/htdocs/vh/app/Controllers/ActivityLogs.php(40): view()
+#4 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\ActivityLogs->view()
+#5 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#6 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#7 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-12-19 00:23:02 --> Class "PortfolioModel" not found
+#0 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/View/View.php(210): include()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render()
+#3 /opt/bitnami/apache/htdocs/vh/app/Controllers/ActivityLogs.php(40): view()
+#4 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\ActivityLogs->view()
+#5 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#6 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#7 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-12-19 00:30:25 --> Call to undefined function ul()
+#0 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/View/View.php(210): include()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render()
+#3 /opt/bitnami/apache/htdocs/vh/app/Controllers/ActivityLogs.php(40): view()
+#4 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\ActivityLogs->view()
+#5 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#6 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#7 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-12-19 00:30:36 --> Call to undefined function ul()
+#0 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/View/View.php(210): include()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render()
+#3 /opt/bitnami/apache/htdocs/vh/app/Controllers/ActivityLogs.php(40): view()
+#4 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\ActivityLogs->view()
+#5 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#6 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#7 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-12-19 00:31:01 --> Call to undefined function ul()
+#0 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/View/View.php(210): include()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render()
+#3 /opt/bitnami/apache/htdocs/vh/app/Controllers/ActivityLogs.php(40): view()
+#4 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\ActivityLogs->view()
+#5 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#6 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#7 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-12-19 00:33:56 --> ul(): Argument #1 ($list) must be of type array, string given, called in /opt/bitnami/apache/htdocs/vh/app/Views/admin/activity_logs/view.php on line 76
+#0 /opt/bitnami/apache/htdocs/vh/app/Views/admin/activity_logs/view.php(76): ul()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/View/View.php(210): include('...')
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /opt/bitnami/apache/htdocs/vh/app/Controllers/ActivityLogs.php(40): view()
+#5 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\ActivityLogs->view()
+#6 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#7 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#8 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-12-19 00:34:34 --> ul(): Argument #1 ($list) must be of type array, string given, called in /opt/bitnami/apache/htdocs/vh/app/Views/admin/activity_logs/view.php on line 76
+#0 /opt/bitnami/apache/htdocs/vh/app/Views/admin/activity_logs/view.php(76): ul()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/View/View.php(210): include('...')
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /opt/bitnami/apache/htdocs/vh/app/Controllers/ActivityLogs.php(40): view()
+#5 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\ActivityLogs->view()
+#6 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#7 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#8 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-12-19 00:35:26 --> Too few arguments to function array_sort_by_multiple_keys(), 1 passed in /opt/bitnami/apache/htdocs/vh/app/Views/admin/activity_logs/view.php on line 76 and exactly 2 expected
+#0 /opt/bitnami/apache/htdocs/vh/app/Views/admin/activity_logs/view.php(76): array_sort_by_multiple_keys()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/View/View.php(210): include('...')
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /opt/bitnami/apache/htdocs/vh/app/Controllers/ActivityLogs.php(40): view()
+#5 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\ActivityLogs->view()
+#6 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#7 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#8 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-12-19 00:35:44 --> Too few arguments to function array_sort_by_multiple_keys(), 1 passed in /opt/bitnami/apache/htdocs/vh/app/Views/admin/activity_logs/view.php on line 76 and exactly 2 expected
+#0 /opt/bitnami/apache/htdocs/vh/app/Views/admin/activity_logs/view.php(76): array_sort_by_multiple_keys()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/View/View.php(210): include('...')
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /opt/bitnami/apache/htdocs/vh/app/Controllers/ActivityLogs.php(40): view()
+#5 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\ActivityLogs->view()
+#6 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#7 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#8 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-12-19 00:35:51 --> Too few arguments to function array_sort_by_multiple_keys(), 1 passed in /opt/bitnami/apache/htdocs/vh/app/Views/admin/activity_logs/view.php on line 76 and exactly 2 expected
+#0 /opt/bitnami/apache/htdocs/vh/app/Views/admin/activity_logs/view.php(76): array_sort_by_multiple_keys()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/View/View.php(210): include('...')
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /opt/bitnami/apache/htdocs/vh/app/Controllers/ActivityLogs.php(40): view()
+#5 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\ActivityLogs->view()
+#6 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#7 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#8 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-12-19 00:36:40 --> Array to string conversion
+#0 /opt/bitnami/apache/htdocs/vh/app/Views/admin/activity_logs/view.php(78): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/View/View.php(210): include('...')
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /opt/bitnami/apache/htdocs/vh/app/Controllers/ActivityLogs.php(40): view()
+#5 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\ActivityLogs->view()
+#6 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#7 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#8 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-12-19 00:37:19 --> Array to string conversion
+#0 /opt/bitnami/apache/htdocs/vh/app/Views/admin/activity_logs/view.php(78): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/View/View.php(210): include('...')
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /opt/bitnami/apache/htdocs/vh/app/Controllers/ActivityLogs.php(40): view()
+#5 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\ActivityLogs->view()
+#6 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#7 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#8 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-12-19 00:37:37 --> Array to string conversion
+#0 /opt/bitnami/apache/htdocs/vh/app/Views/admin/activity_logs/view.php(78): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/View/View.php(210): include('...')
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /opt/bitnami/apache/htdocs/vh/app/Controllers/ActivityLogs.php(40): view()
+#5 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\ActivityLogs->view()
+#6 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#7 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#8 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-12-19 10:20:57 --> date() expects at least 1 argument, 0 given
+#0 /opt/bitnami/apache/htdocs/vh/app/Models/PortfolioModel.php(58): date()
+#1 /opt/bitnami/apache/htdocs/vh/app/Controllers/Portfolio.php(96): App\Models\PortfolioModel->add_open_position()
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Portfolio->open_position()
+#3 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#4 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-12-19 10:20:59 --> date() expects at least 1 argument, 0 given
+#0 /opt/bitnami/apache/htdocs/vh/app/Models/PortfolioModel.php(58): date()
+#1 /opt/bitnami/apache/htdocs/vh/app/Controllers/Portfolio.php(96): App\Models\PortfolioModel->add_open_position()
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Portfolio->open_position()
+#3 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#4 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-12-19 10:21:03 --> date() expects at least 1 argument, 0 given
+#0 /opt/bitnami/apache/htdocs/vh/app/Models/PortfolioModel.php(58): date()
+#1 /opt/bitnami/apache/htdocs/vh/app/Controllers/Portfolio.php(96): App\Models\PortfolioModel->add_open_position()
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Portfolio->open_position()
+#3 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#4 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-12-19 10:41:13 --> Call to undefined function settings()
+#0 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/View/View.php(210): include()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render()
+#3 /opt/bitnami/apache/htdocs/vh/app/Views/exchange/contracts/list.php(162): view()
+#4 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/View/View.php(210): include('...')
+#5 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#6 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render()
+#7 /opt/bitnami/apache/htdocs/vh/app/Controllers/Contracts.php(21): view()
+#8 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Contracts->index()
+#9 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#10 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#11 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-12-19 10:59:07 --> Undefined array key "Price"
+#0 /opt/bitnami/apache/htdocs/vh/app/Views/exchange/portfolio.php(121): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/View/View.php(210): include('...')
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /opt/bitnami/apache/htdocs/vh/app/Controllers/Portfolio.php(22): view()
+#5 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Portfolio->index()
+#6 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#7 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#8 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-12-19 11:05:34 --> Class "ContractModel" not found
+#0 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/View/View.php(210): include()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render()
+#3 /opt/bitnami/apache/htdocs/vh/app/Controllers/Portfolio.php(22): view()
+#4 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Portfolio->index()
+#5 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#6 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#7 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-12-19 11:07:02 --> Trying to access array offset on value of type null
+#0 /opt/bitnami/apache/htdocs/vh/app/Views/exchange/portfolio.php(125): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/View/View.php(210): include('...')
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /opt/bitnami/apache/htdocs/vh/app/Controllers/Portfolio.php(22): view()
+#5 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Portfolio->index()
+#6 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#7 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#8 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-12-19 11:14:41 --> Undefined array key "unit_price"
+#0 /opt/bitnami/apache/htdocs/vh/app/Views/exchange/portfolio.php(125): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/View/View.php(210): include('...')
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /opt/bitnami/apache/htdocs/vh/app/Controllers/Portfolio.php(22): view()
+#5 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Portfolio->index()
+#6 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#7 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#8 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-12-19 11:15:24 --> Undefined array key "unit_price"
+#0 /opt/bitnami/apache/htdocs/vh/app/Views/exchange/portfolio.php(125): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/View/View.php(210): include('...')
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /opt/bitnami/apache/htdocs/vh/app/Controllers/Portfolio.php(22): view()
+#5 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Portfolio->index()
+#6 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#7 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#8 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-12-19 11:15:32 --> Undefined array key "unit_price"
+#0 /opt/bitnami/apache/htdocs/vh/app/Views/exchange/portfolio.php(125): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/View/View.php(210): include('...')
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /opt/bitnami/apache/htdocs/vh/app/Controllers/Portfolio.php(22): view()
+#5 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Portfolio->index()
+#6 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#7 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#8 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-12-19 11:16:16 --> Array to string conversion
+#0 /opt/bitnami/apache/htdocs/vh/app/Views/exchange/portfolio.php(125): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/View/View.php(210): include('...')
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /opt/bitnami/apache/htdocs/vh/app/Controllers/Portfolio.php(22): view()
+#5 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Portfolio->index()
+#6 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#7 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#8 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-12-19 11:16:42 --> Array to string conversion
+#0 /opt/bitnami/apache/htdocs/vh/app/Views/exchange/portfolio.php(125): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/View/View.php(210): include('...')
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /opt/bitnami/apache/htdocs/vh/app/Controllers/Portfolio.php(22): view()
+#5 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Portfolio->index()
+#6 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#7 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#8 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-12-19 11:16:52 --> Array to string conversion
+#0 /opt/bitnami/apache/htdocs/vh/app/Views/exchange/portfolio.php(125): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/View/View.php(210): include('...')
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /opt/bitnami/apache/htdocs/vh/app/Controllers/Portfolio.php(22): view()
+#5 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Portfolio->index()
+#6 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#7 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#8 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-12-19 11:17:05 --> Array to string conversion
+#0 /opt/bitnami/apache/htdocs/vh/app/Views/exchange/portfolio.php(125): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/View/View.php(210): include('...')
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /opt/bitnami/apache/htdocs/vh/app/Controllers/Portfolio.php(22): view()
+#5 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Portfolio->index()
+#6 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#7 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#8 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-12-19 11:17:13 --> Array to string conversion
+#0 /opt/bitnami/apache/htdocs/vh/app/Views/exchange/portfolio.php(125): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/View/View.php(210): include('...')
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /opt/bitnami/apache/htdocs/vh/app/Controllers/Portfolio.php(22): view()
+#5 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Portfolio->index()
+#6 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#7 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#8 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-12-19 11:17:15 --> Array to string conversion
+#0 /opt/bitnami/apache/htdocs/vh/app/Views/exchange/portfolio.php(125): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/View/View.php(210): include('...')
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /opt/bitnami/apache/htdocs/vh/app/Controllers/Portfolio.php(22): view()
+#5 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Portfolio->index()
+#6 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#7 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#8 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-12-19 11:52:37 --> Undefined array key "ticker"
+#0 /opt/bitnami/apache/htdocs/vh/app/Models/PortfolioModel.php(46): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /opt/bitnami/apache/htdocs/vh/app/Controllers/Portfolio.php(31): App\Models\PortfolioModel->list_positions_actual_price()
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Portfolio->list_price()
+#3 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#4 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-12-19 12:04:05 --> Undefined array key "id"
+#0 /opt/bitnami/apache/htdocs/vh/app/Views/exchange/portfolio.php(120): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/View/View.php(210): include('...')
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /opt/bitnami/apache/htdocs/vh/app/Controllers/Portfolio.php(24): view()
+#5 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Portfolio->index()
+#6 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#7 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#8 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-12-19 12:04:58 --> Undefined array key "id"
+#0 /opt/bitnami/apache/htdocs/vh/app/Views/exchange/portfolio.php(120): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/View/View.php(210): include('...')
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /opt/bitnami/apache/htdocs/vh/app/Controllers/Portfolio.php(24): view()
+#5 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Portfolio->index()
+#6 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#7 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#8 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-12-19 12:46:08 --> Call to undefined function App\Controllers\number_to_amount()
+#0 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Portfolio->portfolio_dashboard()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#3 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-12-19 12:46:43 --> Call to undefined function App\Controllers\number_to_amount()
+#0 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Portfolio->portfolio_dashboard()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#3 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-12-19 12:46:45 --> Call to undefined function App\Controllers\number_to_amount()
+#0 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Portfolio->portfolio_dashboard()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#3 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-12-19 12:46:50 --> Call to undefined function App\Controllers\number_to_amount()
+#0 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Portfolio->portfolio_dashboard()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#3 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-12-19 12:46:52 --> Call to undefined function App\Controllers\number_to_amount()
+#0 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Portfolio->portfolio_dashboard()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#3 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-12-19 12:46:56 --> Call to undefined function App\Controllers\number_to_amount()
+#0 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Portfolio->portfolio_dashboard()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#3 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-12-19 12:48:35 --> Too few arguments to function number_to_currency(), 1 passed in /opt/bitnami/apache/htdocs/vh/app/Controllers/Portfolio.php on line 147 and at least 2 expected
+#0 /opt/bitnami/apache/htdocs/vh/app/Controllers/Portfolio.php(147): number_to_currency()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Portfolio->portfolio_dashboard()
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-12-19 12:48:36 --> Too few arguments to function number_to_currency(), 1 passed in /opt/bitnami/apache/htdocs/vh/app/Controllers/Portfolio.php on line 147 and at least 2 expected
+#0 /opt/bitnami/apache/htdocs/vh/app/Controllers/Portfolio.php(147): number_to_currency()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Portfolio->portfolio_dashboard()
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-12-19 12:48:38 --> Too few arguments to function number_to_currency(), 1 passed in /opt/bitnami/apache/htdocs/vh/app/Controllers/Portfolio.php on line 147 and at least 2 expected
+#0 /opt/bitnami/apache/htdocs/vh/app/Controllers/Portfolio.php(147): number_to_currency()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Portfolio->portfolio_dashboard()
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-12-19 12:48:43 --> Too few arguments to function number_to_currency(), 1 passed in /opt/bitnami/apache/htdocs/vh/app/Controllers/Portfolio.php on line 147 and at least 2 expected
+#0 /opt/bitnami/apache/htdocs/vh/app/Controllers/Portfolio.php(147): number_to_currency()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Portfolio->portfolio_dashboard()
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-12-19 12:49:06 --> Too few arguments to function number_to_currency(), 1 passed in /opt/bitnami/apache/htdocs/vh/app/Controllers/Portfolio.php on line 147 and at least 2 expected
+#0 /opt/bitnami/apache/htdocs/vh/app/Controllers/Portfolio.php(147): number_to_currency()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Portfolio->portfolio_dashboard()
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-12-19 12:57:42 --> Undefined array key "portafolio_value"
+#0 /opt/bitnami/apache/htdocs/vh/app/Controllers/Portfolio.php(159): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Portfolio->portfolio_dashboard()
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-12-19 12:57:44 --> Undefined array key "portafolio_value"
+#0 /opt/bitnami/apache/htdocs/vh/app/Controllers/Portfolio.php(159): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Portfolio->portfolio_dashboard()
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-12-19 12:58:11 --> Undefined array key "portafolio_value"
+#0 /opt/bitnami/apache/htdocs/vh/app/Controllers/Portfolio.php(159): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Portfolio->portfolio_dashboard()
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-12-19 12:58:15 --> Undefined array key "portafolio_value"
+#0 /opt/bitnami/apache/htdocs/vh/app/Controllers/Portfolio.php(159): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Portfolio->portfolio_dashboard()
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-12-19 12:58:19 --> Undefined array key "portafolio_value"
+#0 /opt/bitnami/apache/htdocs/vh/app/Controllers/Portfolio.php(159): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Portfolio->portfolio_dashboard()
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-12-19 12:58:21 --> Undefined array key "portafolio_value"
+#0 /opt/bitnami/apache/htdocs/vh/app/Controllers/Portfolio.php(159): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Portfolio->portfolio_dashboard()
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-12-19 12:58:27 --> Undefined array key "portafolio_value"
+#0 /opt/bitnami/apache/htdocs/vh/app/Controllers/Portfolio.php(159): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Portfolio->portfolio_dashboard()
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-12-19 12:58:30 --> Undefined array key "portafolio_value"
+#0 /opt/bitnami/apache/htdocs/vh/app/Controllers/Portfolio.php(159): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Portfolio->portfolio_dashboard()
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-12-19 12:58:40 --> Undefined array key "portafolio_value"
+#0 /opt/bitnami/apache/htdocs/vh/app/Controllers/Portfolio.php(159): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Portfolio->portfolio_dashboard()
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-12-19 13:01:41 --> Undefined array key "total_invested"
+#0 /opt/bitnami/apache/htdocs/vh/app/Controllers/Portfolio.php(160): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Portfolio->portfolio_dashboard()
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-12-19 13:01:43 --> Undefined array key "total_invested"
+#0 /opt/bitnami/apache/htdocs/vh/app/Controllers/Portfolio.php(160): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Portfolio->portfolio_dashboard()
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-12-19 13:01:48 --> Undefined array key "total_invested"
+#0 /opt/bitnami/apache/htdocs/vh/app/Controllers/Portfolio.php(160): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Portfolio->portfolio_dashboard()
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-12-19 13:02:29 --> Undefined array key "total_invested"
+#0 /opt/bitnami/apache/htdocs/vh/app/Controllers/Portfolio.php(160): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Portfolio->portfolio_dashboard()
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-12-19 13:02:30 --> Undefined array key "total_invested"
+#0 /opt/bitnami/apache/htdocs/vh/app/Controllers/Portfolio.php(160): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Portfolio->portfolio_dashboard()
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-12-19 13:02:32 --> Undefined array key "total_invested"
+#0 /opt/bitnami/apache/htdocs/vh/app/Controllers/Portfolio.php(160): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Portfolio->portfolio_dashboard()
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-12-19 13:02:37 --> Undefined array key "total_invested"
+#0 /opt/bitnami/apache/htdocs/vh/app/Controllers/Portfolio.php(160): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Portfolio->portfolio_dashboard()
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-12-19 13:09:25 --> Number formatting failed: U_ILLEGAL_ARGUMENT_ERROR
+#0 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Helpers/number_helper.php(120): format_number()
+#1 /opt/bitnami/apache/htdocs/vh/app/Controllers/Portfolio.php(164): number_to_currency()
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Portfolio->portfolio_dashboard()
+#3 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#4 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-12-19 13:09:27 --> Number formatting failed: U_ILLEGAL_ARGUMENT_ERROR
+#0 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Helpers/number_helper.php(120): format_number()
+#1 /opt/bitnami/apache/htdocs/vh/app/Controllers/Portfolio.php(164): number_to_currency()
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Portfolio->portfolio_dashboard()
+#3 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#4 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-12-19 17:09:32 --> Undefined constant "currency_fraction"
+#0 /opt/bitnami/apache/htdocs/vh/app/Controllers/Portfolio.php(160): format_to_currency()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Portfolio->portfolio_dashboard()
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-12-19 17:09:35 --> Undefined constant "currency_fraction"
+#0 /opt/bitnami/apache/htdocs/vh/app/Controllers/Portfolio.php(160): format_to_currency()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Portfolio->portfolio_dashboard()
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-12-19 17:10:20 --> Undefined constant "currency_fraction"
+#0 /opt/bitnami/apache/htdocs/vh/app/Controllers/Portfolio.php(160): format_to_currency()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Portfolio->portfolio_dashboard()
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-12-19 17:10:23 --> Call to undefined function int()
+#0 /opt/bitnami/apache/htdocs/vh/app/Controllers/Portfolio.php(160): format_to_currency()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Portfolio->portfolio_dashboard()
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-12-19 17:10:26 --> Call to undefined function int()
+#0 /opt/bitnami/apache/htdocs/vh/app/Controllers/Portfolio.php(160): format_to_currency()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Portfolio->portfolio_dashboard()
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-12-19 17:10:44 --> Call to undefined function int()
+#0 /opt/bitnami/apache/htdocs/vh/app/Controllers/Portfolio.php(160): format_to_currency()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Portfolio->portfolio_dashboard()
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-12-19 17:11:41 --> Call to undefined function int()
+#0 /opt/bitnami/apache/htdocs/vh/app/Controllers/Portfolio.php(160): format_to_currency()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Portfolio->portfolio_dashboard()
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-12-19 17:12:28 --> Call to undefined function int()
+#0 /opt/bitnami/apache/htdocs/vh/app/Controllers/Portfolio.php(160): format_to_currency()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Portfolio->portfolio_dashboard()
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-12-19 17:12:30 --> Call to undefined function int()
+#0 /opt/bitnami/apache/htdocs/vh/app/Controllers/Portfolio.php(160): format_to_currency()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Portfolio->portfolio_dashboard()
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-12-19 17:12:33 --> Call to undefined function int()
+#0 /opt/bitnami/apache/htdocs/vh/app/Controllers/Portfolio.php(160): format_to_currency()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Portfolio->portfolio_dashboard()
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-12-19 17:12:45 --> Call to undefined function int()
+#0 /opt/bitnami/apache/htdocs/vh/app/Controllers/Portfolio.php(160): format_to_currency()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Portfolio->portfolio_dashboard()
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-12-19 17:12:47 --> Call to undefined function int()
+#0 /opt/bitnami/apache/htdocs/vh/app/Controllers/Portfolio.php(160): format_to_currency()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Portfolio->portfolio_dashboard()
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-12-19 17:13:37 --> Call to undefined function int()
+#0 /opt/bitnami/apache/htdocs/vh/app/Controllers/Portfolio.php(160): format_to_currency()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Portfolio->portfolio_dashboard()
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-12-19 17:13:40 --> Call to undefined function int()
+#0 /opt/bitnami/apache/htdocs/vh/app/Controllers/Portfolio.php(160): format_to_currency()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Portfolio->portfolio_dashboard()
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-12-19 17:13:42 --> Call to undefined function int()
+#0 /opt/bitnami/apache/htdocs/vh/app/Controllers/Portfolio.php(160): format_to_currency()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Portfolio->portfolio_dashboard()
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-12-19 18:28:30 --> Undefined variable $locale
+#0 /opt/bitnami/apache/htdocs/vh/app/Helpers/viholder_helper.php(103): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /opt/bitnami/apache/htdocs/vh/app/Controllers/Portfolio.php(160): format_to_currency()
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Portfolio->portfolio_dashboard()
+#3 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#4 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-12-19 18:28:32 --> Undefined variable $locale
+#0 /opt/bitnami/apache/htdocs/vh/app/Helpers/viholder_helper.php(103): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /opt/bitnami/apache/htdocs/vh/app/Controllers/Portfolio.php(160): format_to_currency()
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Portfolio->portfolio_dashboard()
+#3 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#4 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-12-19 18:28:55 --> Undefined variable $locale
+#0 /opt/bitnami/apache/htdocs/vh/app/Helpers/viholder_helper.php(103): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /opt/bitnami/apache/htdocs/vh/app/Controllers/Portfolio.php(160): format_to_currency()
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Portfolio->portfolio_dashboard()
+#3 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#4 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-12-19 18:28:58 --> Undefined variable $locale
+#0 /opt/bitnami/apache/htdocs/vh/app/Helpers/viholder_helper.php(103): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /opt/bitnami/apache/htdocs/vh/app/Controllers/Portfolio.php(160): format_to_currency()
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Portfolio->portfolio_dashboard()
+#3 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#4 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-12-19 18:29:18 --> Undefined variable $locale
+#0 /opt/bitnami/apache/htdocs/vh/app/Helpers/viholder_helper.php(103): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /opt/bitnami/apache/htdocs/vh/app/Controllers/Portfolio.php(160): format_to_currency()
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Portfolio->portfolio_dashboard()
+#3 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#4 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-12-19 18:29:20 --> Undefined variable $locale
+#0 /opt/bitnami/apache/htdocs/vh/app/Helpers/viholder_helper.php(103): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /opt/bitnami/apache/htdocs/vh/app/Controllers/Portfolio.php(160): format_to_currency()
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Portfolio->portfolio_dashboard()
+#3 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#4 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-12-19 18:42:46 --> Undefined variable $numberstringsin
+#0 /opt/bitnami/apache/htdocs/vh/app/Helpers/viholder_helper.php(101): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /opt/bitnami/apache/htdocs/vh/app/Controllers/Portfolio.php(160): format_to_currency()
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Portfolio->portfolio_dashboard()
+#3 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#4 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-12-19 18:43:06 --> Undefined variable $numberstringsin
+#0 /opt/bitnami/apache/htdocs/vh/app/Helpers/viholder_helper.php(101): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /opt/bitnami/apache/htdocs/vh/app/Controllers/Portfolio.php(160): format_to_currency()
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Portfolio->portfolio_dashboard()
+#3 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#4 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-12-19 18:43:09 --> Undefined variable $numberstringsin
+#0 /opt/bitnami/apache/htdocs/vh/app/Helpers/viholder_helper.php(101): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /opt/bitnami/apache/htdocs/vh/app/Controllers/Portfolio.php(160): format_to_currency()
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Portfolio->portfolio_dashboard()
+#3 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#4 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-12-19 18:44:58 --> Undefined variable $newstring
+#0 /opt/bitnami/apache/htdocs/vh/app/Helpers/viholder_helper.php(102): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /opt/bitnami/apache/htdocs/vh/app/Controllers/Portfolio.php(160): format_to_currency()
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Portfolio->portfolio_dashboard()
+#3 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#4 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-12-19 18:45:02 --> Undefined variable $newstring
+#0 /opt/bitnami/apache/htdocs/vh/app/Helpers/viholder_helper.php(102): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /opt/bitnami/apache/htdocs/vh/app/Controllers/Portfolio.php(160): format_to_currency()
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Portfolio->portfolio_dashboard()
+#3 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#4 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-12-19 18:45:28 --> Undefined variable $newstring
+#0 /opt/bitnami/apache/htdocs/vh/app/Helpers/viholder_helper.php(102): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /opt/bitnami/apache/htdocs/vh/app/Controllers/Portfolio.php(160): format_to_currency()
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Portfolio->portfolio_dashboard()
+#3 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#4 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-12-19 18:45:31 --> Undefined variable $newstring
+#0 /opt/bitnami/apache/htdocs/vh/app/Helpers/viholder_helper.php(102): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /opt/bitnami/apache/htdocs/vh/app/Controllers/Portfolio.php(160): format_to_currency()
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Portfolio->portfolio_dashboard()
+#3 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#4 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-12-19 18:45:35 --> Undefined variable $newstring
+#0 /opt/bitnami/apache/htdocs/vh/app/Helpers/viholder_helper.php(102): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /opt/bitnami/apache/htdocs/vh/app/Controllers/Portfolio.php(160): format_to_currency()
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Portfolio->portfolio_dashboard()
+#3 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#4 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-12-19 18:45:37 --> Undefined variable $newstring
+#0 /opt/bitnami/apache/htdocs/vh/app/Helpers/viholder_helper.php(102): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /opt/bitnami/apache/htdocs/vh/app/Controllers/Portfolio.php(160): format_to_currency()
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Portfolio->portfolio_dashboard()
+#3 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#4 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-12-19 18:45:39 --> Undefined variable $newstring
+#0 /opt/bitnami/apache/htdocs/vh/app/Helpers/viholder_helper.php(102): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /opt/bitnami/apache/htdocs/vh/app/Controllers/Portfolio.php(160): format_to_currency()
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Portfolio->portfolio_dashboard()
+#3 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#4 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-12-19 18:45:43 --> Undefined variable $newstring
+#0 /opt/bitnami/apache/htdocs/vh/app/Helpers/viholder_helper.php(102): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /opt/bitnami/apache/htdocs/vh/app/Controllers/Portfolio.php(160): format_to_currency()
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Portfolio->portfolio_dashboard()
+#3 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#4 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-12-19 18:45:54 --> Undefined variable $newstring
+#0 /opt/bitnami/apache/htdocs/vh/app/Helpers/viholder_helper.php(102): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /opt/bitnami/apache/htdocs/vh/app/Controllers/Portfolio.php(160): format_to_currency()
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Portfolio->portfolio_dashboard()
+#3 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#4 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-12-19 18:45:55 --> Undefined variable $newstring
+#0 /opt/bitnami/apache/htdocs/vh/app/Helpers/viholder_helper.php(102): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /opt/bitnami/apache/htdocs/vh/app/Controllers/Portfolio.php(160): format_to_currency()
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Portfolio->portfolio_dashboard()
+#3 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#4 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-12-19 18:45:57 --> Undefined variable $newstring
+#0 /opt/bitnami/apache/htdocs/vh/app/Helpers/viholder_helper.php(102): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /opt/bitnami/apache/htdocs/vh/app/Controllers/Portfolio.php(160): format_to_currency()
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Portfolio->portfolio_dashboard()
+#3 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#4 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-12-19 18:47:21 --> Undefined variable $newstring
+#0 /opt/bitnami/apache/htdocs/vh/app/Helpers/viholder_helper.php(103): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /opt/bitnami/apache/htdocs/vh/app/Controllers/Portfolio.php(160): format_to_currency()
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Portfolio->portfolio_dashboard()
+#3 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#4 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-12-19 18:47:23 --> Undefined variable $newstring
+#0 /opt/bitnami/apache/htdocs/vh/app/Helpers/viholder_helper.php(103): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /opt/bitnami/apache/htdocs/vh/app/Controllers/Portfolio.php(160): format_to_currency()
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Portfolio->portfolio_dashboard()
+#3 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#4 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-12-19 18:47:25 --> Undefined variable $newstring
+#0 /opt/bitnami/apache/htdocs/vh/app/Helpers/viholder_helper.php(103): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /opt/bitnami/apache/htdocs/vh/app/Controllers/Portfolio.php(160): format_to_currency()
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Portfolio->portfolio_dashboard()
+#3 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#4 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-12-19 18:48:17 --> Undefined variable $newstring
+#0 /opt/bitnami/apache/htdocs/vh/app/Helpers/viholder_helper.php(103): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /opt/bitnami/apache/htdocs/vh/app/Controllers/Portfolio.php(160): format_to_currency()
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Portfolio->portfolio_dashboard()
+#3 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#4 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-12-19 18:48:21 --> Too few arguments to function format_to_currency(), 1 passed in /opt/bitnami/apache/htdocs/vh/app/Controllers/Portfolio.php on line 160 and exactly 2 expected
+#0 /opt/bitnami/apache/htdocs/vh/app/Controllers/Portfolio.php(160): format_to_currency()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Portfolio->portfolio_dashboard()
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-12-19 18:48:28 --> Too few arguments to function format_to_currency(), 1 passed in /opt/bitnami/apache/htdocs/vh/app/Controllers/Portfolio.php on line 160 and exactly 2 expected
+#0 /opt/bitnami/apache/htdocs/vh/app/Controllers/Portfolio.php(160): format_to_currency()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Portfolio->portfolio_dashboard()
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-12-19 18:48:32 --> Too few arguments to function format_to_currency(), 1 passed in /opt/bitnami/apache/htdocs/vh/app/Controllers/Portfolio.php on line 160 and exactly 2 expected
+#0 /opt/bitnami/apache/htdocs/vh/app/Controllers/Portfolio.php(160): format_to_currency()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Portfolio->portfolio_dashboard()
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-12-19 18:48:36 --> Too few arguments to function format_to_currency(), 1 passed in /opt/bitnami/apache/htdocs/vh/app/Controllers/Portfolio.php on line 160 and exactly 2 expected
+#0 /opt/bitnami/apache/htdocs/vh/app/Controllers/Portfolio.php(160): format_to_currency()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Portfolio->portfolio_dashboard()
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-12-19 18:48:40 --> Too few arguments to function format_to_currency(), 1 passed in /opt/bitnami/apache/htdocs/vh/app/Controllers/Portfolio.php on line 160 and exactly 2 expected
+#0 /opt/bitnami/apache/htdocs/vh/app/Controllers/Portfolio.php(160): format_to_currency()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Portfolio->portfolio_dashboard()
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-12-19 18:48:42 --> Too few arguments to function format_to_currency(), 1 passed in /opt/bitnami/apache/htdocs/vh/app/Controllers/Portfolio.php on line 160 and exactly 2 expected
+#0 /opt/bitnami/apache/htdocs/vh/app/Controllers/Portfolio.php(160): format_to_currency()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Portfolio->portfolio_dashboard()
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-12-19 18:48:46 --> Too few arguments to function format_to_currency(), 1 passed in /opt/bitnami/apache/htdocs/vh/app/Controllers/Portfolio.php on line 160 and exactly 2 expected
+#0 /opt/bitnami/apache/htdocs/vh/app/Controllers/Portfolio.php(160): format_to_currency()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Portfolio->portfolio_dashboard()
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-12-19 18:49:06 --> Too few arguments to function format_to_currency(), 1 passed in /opt/bitnami/apache/htdocs/vh/app/Controllers/Portfolio.php on line 160 and exactly 2 expected
+#0 /opt/bitnami/apache/htdocs/vh/app/Controllers/Portfolio.php(160): format_to_currency()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Portfolio->portfolio_dashboard()
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-12-19 18:49:09 --> Too few arguments to function format_to_currency(), 1 passed in /opt/bitnami/apache/htdocs/vh/app/Controllers/Portfolio.php on line 160 and exactly 2 expected
+#0 /opt/bitnami/apache/htdocs/vh/app/Controllers/Portfolio.php(160): format_to_currency()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Portfolio->portfolio_dashboard()
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-12-19 18:49:10 --> Too few arguments to function format_to_currency(), 1 passed in /opt/bitnami/apache/htdocs/vh/app/Controllers/Portfolio.php on line 160 and exactly 2 expected
+#0 /opt/bitnami/apache/htdocs/vh/app/Controllers/Portfolio.php(160): format_to_currency()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Portfolio->portfolio_dashboard()
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-12-19 18:49:31 --> Too few arguments to function format_to_currency(), 1 passed in /opt/bitnami/apache/htdocs/vh/app/Controllers/Portfolio.php on line 160 and exactly 2 expected
+#0 /opt/bitnami/apache/htdocs/vh/app/Controllers/Portfolio.php(160): format_to_currency()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Portfolio->portfolio_dashboard()
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-12-19 18:49:32 --> Too few arguments to function format_to_currency(), 1 passed in /opt/bitnami/apache/htdocs/vh/app/Controllers/Portfolio.php on line 160 and exactly 2 expected
+#0 /opt/bitnami/apache/htdocs/vh/app/Controllers/Portfolio.php(160): format_to_currency()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Portfolio->portfolio_dashboard()
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-12-19 18:49:44 --> Too few arguments to function format_to_currency(), 1 passed in /opt/bitnami/apache/htdocs/vh/app/Controllers/Portfolio.php on line 160 and exactly 2 expected
+#0 /opt/bitnami/apache/htdocs/vh/app/Controllers/Portfolio.php(160): format_to_currency()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Portfolio->portfolio_dashboard()
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-12-19 18:49:48 --> Too few arguments to function format_to_currency(), 1 passed in /opt/bitnami/apache/htdocs/vh/app/Controllers/Portfolio.php on line 160 and exactly 2 expected
+#0 /opt/bitnami/apache/htdocs/vh/app/Controllers/Portfolio.php(160): format_to_currency()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Portfolio->portfolio_dashboard()
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-12-19 18:49:49 --> Too few arguments to function format_to_currency(), 1 passed in /opt/bitnami/apache/htdocs/vh/app/Controllers/Portfolio.php on line 160 and exactly 2 expected
+#0 /opt/bitnami/apache/htdocs/vh/app/Controllers/Portfolio.php(160): format_to_currency()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Portfolio->portfolio_dashboard()
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-12-19 18:50:05 --> Too few arguments to function format_to_currency(), 1 passed in /opt/bitnami/apache/htdocs/vh/app/Controllers/Portfolio.php on line 160 and exactly 2 expected
+#0 /opt/bitnami/apache/htdocs/vh/app/Controllers/Portfolio.php(160): format_to_currency()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Portfolio->portfolio_dashboard()
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-12-19 18:50:08 --> Too few arguments to function format_to_currency(), 1 passed in /opt/bitnami/apache/htdocs/vh/app/Controllers/Portfolio.php on line 160 and exactly 2 expected
+#0 /opt/bitnami/apache/htdocs/vh/app/Controllers/Portfolio.php(160): format_to_currency()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Portfolio->portfolio_dashboard()
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-12-19 18:50:12 --> Too few arguments to function format_to_currency(), 1 passed in /opt/bitnami/apache/htdocs/vh/app/Controllers/Portfolio.php on line 160 and exactly 2 expected
+#0 /opt/bitnami/apache/htdocs/vh/app/Controllers/Portfolio.php(160): format_to_currency()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Portfolio->portfolio_dashboard()
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-12-19 18:50:14 --> Too few arguments to function format_to_currency(), 1 passed in /opt/bitnami/apache/htdocs/vh/app/Controllers/Portfolio.php on line 160 and exactly 2 expected
+#0 /opt/bitnami/apache/htdocs/vh/app/Controllers/Portfolio.php(160): format_to_currency()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Portfolio->portfolio_dashboard()
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-12-19 18:50:16 --> Too few arguments to function format_to_currency(), 1 passed in /opt/bitnami/apache/htdocs/vh/app/Controllers/Portfolio.php on line 160 and exactly 2 expected
+#0 /opt/bitnami/apache/htdocs/vh/app/Controllers/Portfolio.php(160): format_to_currency()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Portfolio->portfolio_dashboard()
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-12-19 18:51:49 --> Undefined variable $smallcents
+#0 /opt/bitnami/apache/htdocs/vh/app/Helpers/viholder_helper.php(102): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /opt/bitnami/apache/htdocs/vh/app/Controllers/Portfolio.php(160): format_to_currency()
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Portfolio->portfolio_dashboard()
+#3 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#4 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-12-19 18:51:52 --> Undefined variable $smallcents
+#0 /opt/bitnami/apache/htdocs/vh/app/Helpers/viholder_helper.php(102): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /opt/bitnami/apache/htdocs/vh/app/Controllers/Portfolio.php(160): format_to_currency()
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Portfolio->portfolio_dashboard()
+#3 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#4 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-12-19 18:52:18 --> Undefined variable $smallcents
+#0 /opt/bitnami/apache/htdocs/vh/app/Helpers/viholder_helper.php(102): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /opt/bitnami/apache/htdocs/vh/app/Controllers/Portfolio.php(160): format_to_currency()
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Portfolio->portfolio_dashboard()
+#3 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#4 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-12-19 18:52:20 --> Undefined variable $smallcents
+#0 /opt/bitnami/apache/htdocs/vh/app/Helpers/viholder_helper.php(102): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /opt/bitnami/apache/htdocs/vh/app/Controllers/Portfolio.php(160): format_to_currency()
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Portfolio->portfolio_dashboard()
+#3 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#4 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-12-19 18:52:22 --> Undefined variable $smallcents
+#0 /opt/bitnami/apache/htdocs/vh/app/Helpers/viholder_helper.php(102): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /opt/bitnami/apache/htdocs/vh/app/Controllers/Portfolio.php(160): format_to_currency()
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Portfolio->portfolio_dashboard()
+#3 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#4 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-12-19 18:52:24 --> Undefined variable $smallcents
+#0 /opt/bitnami/apache/htdocs/vh/app/Helpers/viholder_helper.php(102): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /opt/bitnami/apache/htdocs/vh/app/Controllers/Portfolio.php(160): format_to_currency()
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Portfolio->portfolio_dashboard()
+#3 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#4 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-12-19 18:52:44 --> Undefined variable $smallcents
+#0 /opt/bitnami/apache/htdocs/vh/app/Helpers/viholder_helper.php(102): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /opt/bitnami/apache/htdocs/vh/app/Controllers/Portfolio.php(160): format_to_currency()
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Portfolio->portfolio_dashboard()
+#3 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#4 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-12-19 18:52:46 --> Undefined variable $smallcents
+#0 /opt/bitnami/apache/htdocs/vh/app/Helpers/viholder_helper.php(102): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /opt/bitnami/apache/htdocs/vh/app/Controllers/Portfolio.php(160): format_to_currency()
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Portfolio->portfolio_dashboard()
+#3 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#4 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-12-19 18:52:49 --> Undefined variable $smallcents
+#0 /opt/bitnami/apache/htdocs/vh/app/Helpers/viholder_helper.php(102): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /opt/bitnami/apache/htdocs/vh/app/Controllers/Portfolio.php(160): format_to_currency()
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Portfolio->portfolio_dashboard()
+#3 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#4 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-12-19 22:12:26 --> Class "App\Controllers\baseModel" not found
+#0 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Contracts->contract_detail()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#3 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-12-19 22:12:42 --> Class "App\Controllers\baseModel" not found
+#0 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Contracts->contract_detail()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#3 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-12-19 22:13:20 --> Class "App\Controllers\baseModel" not found
+#0 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Contracts->contract_detail()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#3 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-12-19 22:13:23 --> Class "App\Controllers\baseModel" not found
+#0 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Contracts->contract_detail()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#3 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-12-19 22:15:12 --> Call to undefined function App\Controllers\var_dumb()
+#0 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Contracts->view3()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#3 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-12-19 22:15:48 --> Call to undefined function App\Controllers\var_dumb()
+#0 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Contracts->view3()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#3 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-12-19 22:15:50 --> Call to undefined function App\Controllers\var_dumb()
+#0 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Contracts->view3()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#3 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-12-19 22:16:03 --> Call to undefined function App\Controllers\var_dumb()
+#0 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Contracts->view3()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#3 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-12-19 23:25:45 --> Undefined variable $actual_position_val
+#0 /opt/bitnami/apache/htdocs/vh/app/Controllers/Portfolio.php(142): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Portfolio->portfolio_dashboard()
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-12-19 23:25:46 --> Undefined variable $actual_position_val
+#0 /opt/bitnami/apache/htdocs/vh/app/Controllers/Portfolio.php(142): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Portfolio->portfolio_dashboard()
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-12-19 23:25:49 --> Undefined variable $actual_position_val
+#0 /opt/bitnami/apache/htdocs/vh/app/Controllers/Portfolio.php(142): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Portfolio->portfolio_dashboard()
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-12-19 23:26:20 --> Undefined variable $actual_position_val
+#0 /opt/bitnami/apache/htdocs/vh/app/Controllers/Portfolio.php(142): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Portfolio->portfolio_dashboard()
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-12-19 23:26:23 --> Undefined variable $actual_position_val
+#0 /opt/bitnami/apache/htdocs/vh/app/Controllers/Portfolio.php(142): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Portfolio->portfolio_dashboard()
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-12-19 23:26:27 --> Undefined variable $actual_position_val
+#0 /opt/bitnami/apache/htdocs/vh/app/Controllers/Portfolio.php(142): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Portfolio->portfolio_dashboard()
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-12-19 23:26:28 --> Undefined variable $actual_position_val
+#0 /opt/bitnami/apache/htdocs/vh/app/Controllers/Portfolio.php(142): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Portfolio->portfolio_dashboard()
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-12-19 23:27:11 --> Undefined variable $actual_position_val
+#0 /opt/bitnami/apache/htdocs/vh/app/Controllers/Portfolio.php(142): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Portfolio->portfolio_dashboard()
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-12-19 23:27:13 --> Undefined variable $actual_position_val
+#0 /opt/bitnami/apache/htdocs/vh/app/Controllers/Portfolio.php(142): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Portfolio->portfolio_dashboard()
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-12-19 23:27:27 --> Undefined variable $actual_position_val
+#0 /opt/bitnami/apache/htdocs/vh/app/Controllers/Portfolio.php(142): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Portfolio->portfolio_dashboard()
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-12-19 23:27:30 --> Undefined variable $actual_position_val
+#0 /opt/bitnami/apache/htdocs/vh/app/Controllers/Portfolio.php(142): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Portfolio->portfolio_dashboard()
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-12-19 23:27:35 --> Undefined variable $actual_position_val
+#0 /opt/bitnami/apache/htdocs/vh/app/Controllers/Portfolio.php(142): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Portfolio->portfolio_dashboard()
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-12-19 23:30:43 --> Undefined variable $position_val
+#0 /opt/bitnami/apache/htdocs/vh/app/Controllers/Portfolio.php(140): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Portfolio->portfolio_dashboard()
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-12-19 23:30:58 --> Undefined variable $position_val
+#0 /opt/bitnami/apache/htdocs/vh/app/Controllers/Portfolio.php(140): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Portfolio->portfolio_dashboard()
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-12-19 23:32:00 --> Undefined variable $position_val
+#0 /opt/bitnami/apache/htdocs/vh/app/Controllers/Portfolio.php(140): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Portfolio->portfolio_dashboard()
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-12-19 23:32:03 --> Undefined variable $position_val
+#0 /opt/bitnami/apache/htdocs/vh/app/Controllers/Portfolio.php(140): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Portfolio->portfolio_dashboard()
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-12-19 23:32:10 --> Undefined variable $position_val
+#0 /opt/bitnami/apache/htdocs/vh/app/Controllers/Portfolio.php(140): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Portfolio->portfolio_dashboard()
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-12-19 23:32:12 --> Undefined variable $position_val
+#0 /opt/bitnami/apache/htdocs/vh/app/Controllers/Portfolio.php(140): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Portfolio->portfolio_dashboard()
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-12-19 23:32:34 --> Undefined variable $position_val
+#0 /opt/bitnami/apache/htdocs/vh/app/Controllers/Portfolio.php(140): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Portfolio->portfolio_dashboard()
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-12-19 23:32:47 --> Undefined variable $position_val
+#0 /opt/bitnami/apache/htdocs/vh/app/Controllers/Portfolio.php(140): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Portfolio->portfolio_dashboard()
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-12-19 23:32:50 --> Undefined variable $position_val
+#0 /opt/bitnami/apache/htdocs/vh/app/Controllers/Portfolio.php(140): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Portfolio->portfolio_dashboard()
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-12-19 23:32:52 --> Undefined variable $position_val
+#0 /opt/bitnami/apache/htdocs/vh/app/Controllers/Portfolio.php(140): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Portfolio->portfolio_dashboard()
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-12-19 23:33:08 --> Undefined variable $position_val
+#0 /opt/bitnami/apache/htdocs/vh/app/Controllers/Portfolio.php(140): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Portfolio->portfolio_dashboard()
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-12-19 23:33:10 --> Undefined variable $position_val
+#0 /opt/bitnami/apache/htdocs/vh/app/Controllers/Portfolio.php(140): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Portfolio->portfolio_dashboard()
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-12-19 23:33:12 --> Undefined variable $position_val
+#0 /opt/bitnami/apache/htdocs/vh/app/Controllers/Portfolio.php(140): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Portfolio->portfolio_dashboard()
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-12-19 23:33:13 --> Undefined variable $position_val
+#0 /opt/bitnami/apache/htdocs/vh/app/Controllers/Portfolio.php(140): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Portfolio->portfolio_dashboard()
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-12-19 23:33:18 --> Undefined variable $position_val
+#0 /opt/bitnami/apache/htdocs/vh/app/Controllers/Portfolio.php(140): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Portfolio->portfolio_dashboard()
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-12-19 23:33:30 --> Undefined variable $position_val
+#0 /opt/bitnami/apache/htdocs/vh/app/Controllers/Portfolio.php(140): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Portfolio->portfolio_dashboard()
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-12-19 23:34:07 --> Undefined variable $position_val
+#0 /opt/bitnami/apache/htdocs/vh/app/Controllers/Portfolio.php(140): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Portfolio->portfolio_dashboard()
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-12-19 23:34:09 --> Undefined variable $actual_val
+#0 /opt/bitnami/apache/htdocs/vh/app/Controllers/Portfolio.php(142): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Portfolio->portfolio_dashboard()
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-12-19 23:34:11 --> Undefined variable $actual_val
+#0 /opt/bitnami/apache/htdocs/vh/app/Controllers/Portfolio.php(142): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Portfolio->portfolio_dashboard()
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-12-19 23:34:27 --> Undefined variable $actual_val
+#0 /opt/bitnami/apache/htdocs/vh/app/Controllers/Portfolio.php(142): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Portfolio->portfolio_dashboard()
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-12-19 23:34:37 --> Undefined variable $actual_val
+#0 /opt/bitnami/apache/htdocs/vh/app/Controllers/Portfolio.php(142): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Portfolio->portfolio_dashboard()
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-12-19 23:34:38 --> Undefined variable $actual_val
+#0 /opt/bitnami/apache/htdocs/vh/app/Controllers/Portfolio.php(142): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Portfolio->portfolio_dashboard()
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-12-19 23:34:54 --> Undefined variable $actual_val
+#0 /opt/bitnami/apache/htdocs/vh/app/Controllers/Portfolio.php(142): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Portfolio->portfolio_dashboard()
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-12-19 23:34:55 --> Undefined variable $actual_val
+#0 /opt/bitnami/apache/htdocs/vh/app/Controllers/Portfolio.php(142): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Portfolio->portfolio_dashboard()
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-12-19 23:35:03 --> Undefined variable $actual_val
+#0 /opt/bitnami/apache/htdocs/vh/app/Controllers/Portfolio.php(142): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Portfolio->portfolio_dashboard()
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-12-19 23:35:06 --> Undefined variable $actual_val
+#0 /opt/bitnami/apache/htdocs/vh/app/Controllers/Portfolio.php(142): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Portfolio->portfolio_dashboard()
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-12-19 23:35:28 --> Undefined array key "gain_loss"
+#0 /opt/bitnami/apache/htdocs/vh/app/Controllers/Portfolio.php(160): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Portfolio->portfolio_dashboard()
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-12-19 23:35:32 --> Undefined array key "gain_loss"
+#0 /opt/bitnami/apache/htdocs/vh/app/Controllers/Portfolio.php(160): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Portfolio->portfolio_dashboard()
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-12-19 23:35:42 --> Undefined array key "gain_loss"
+#0 /opt/bitnami/apache/htdocs/vh/app/Controllers/Portfolio.php(160): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Portfolio->portfolio_dashboard()
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-12-19 23:37:53 --> Undefined variable $actual_val
+#0 /opt/bitnami/apache/htdocs/vh/app/Controllers/Portfolio.php(141): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Portfolio->portfolio_dashboard()
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-12-19 23:38:19 --> Undefined variable $actual_val
+#0 /opt/bitnami/apache/htdocs/vh/app/Controllers/Portfolio.php(141): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Portfolio->portfolio_dashboard()
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-12-19 23:38:21 --> Undefined variable $actual_val
+#0 /opt/bitnami/apache/htdocs/vh/app/Controllers/Portfolio.php(141): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Portfolio->portfolio_dashboard()
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-12-19 23:38:30 --> Undefined variable $actual_val
+#0 /opt/bitnami/apache/htdocs/vh/app/Controllers/Portfolio.php(141): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Portfolio->portfolio_dashboard()
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-12-19 23:38:43 --> Undefined variable $actual_val
+#0 /opt/bitnami/apache/htdocs/vh/app/Controllers/Portfolio.php(141): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Portfolio->portfolio_dashboard()
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-12-19 23:38:44 --> Undefined variable $actual_val
+#0 /opt/bitnami/apache/htdocs/vh/app/Controllers/Portfolio.php(141): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Portfolio->portfolio_dashboard()
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-12-19 23:47:57 --> Undefined variable $pos
+#0 /opt/bitnami/apache/htdocs/vh/app/Models/PortfolioModel.php(68): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /opt/bitnami/apache/htdocs/vh/app/Controllers/Portfolio.php(20): App\Models\PortfolioModel->list_positions_actual_price()
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Portfolio->index()
+#3 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#4 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-12-19 23:49:57 --> Undefined variable $pos
+#0 /opt/bitnami/apache/htdocs/vh/app/Models/PortfolioModel.php(68): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /opt/bitnami/apache/htdocs/vh/app/Controllers/Portfolio.php(20): App\Models\PortfolioModel->list_positions_actual_price()
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Portfolio->index()
+#3 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#4 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-12-19 23:50:04 --> Undefined variable $pos
+#0 /opt/bitnami/apache/htdocs/vh/app/Models/PortfolioModel.php(68): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /opt/bitnami/apache/htdocs/vh/app/Controllers/Portfolio.php(20): App\Models\PortfolioModel->list_positions_actual_price()
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Portfolio->index()
+#3 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#4 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-12-19 23:51:43 --> Undefined variable $pos
+#0 /opt/bitnami/apache/htdocs/vh/app/Models/PortfolioModel.php(68): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /opt/bitnami/apache/htdocs/vh/app/Controllers/Portfolio.php(20): App\Models\PortfolioModel->list_positions_actual_price()
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Portfolio->index()
+#3 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#4 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-12-19 23:51:45 --> Undefined variable $pos
+#0 /opt/bitnami/apache/htdocs/vh/app/Models/PortfolioModel.php(68): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /opt/bitnami/apache/htdocs/vh/app/Controllers/Portfolio.php(20): App\Models\PortfolioModel->list_positions_actual_price()
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Portfolio->index()
+#3 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#4 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-12-19 23:53:10 --> foreach() argument must be of type array|object, string given
+#0 /opt/bitnami/apache/htdocs/vh/app/Views/exchange/portfolio.php(114): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/View/View.php(210): include('...')
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /opt/bitnami/apache/htdocs/vh/app/Controllers/Portfolio.php(21): view()
+#5 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Portfolio->index()
+#6 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#7 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#8 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-12-19 23:53:46 --> foreach() argument must be of type array|object, string given
+#0 /opt/bitnami/apache/htdocs/vh/app/Views/exchange/portfolio.php(114): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/View/View.php(210): include('...')
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /opt/bitnami/apache/htdocs/vh/app/Controllers/Portfolio.php(21): view()
+#5 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Portfolio->index()
+#6 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#7 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#8 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-12-19 23:53:58 --> foreach() argument must be of type array|object, string given
+#0 /opt/bitnami/apache/htdocs/vh/app/Views/exchange/portfolio.php(114): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/View/View.php(210): include('...')
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /opt/bitnami/apache/htdocs/vh/app/Controllers/Portfolio.php(21): view()
+#5 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Portfolio->index()
+#6 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#7 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#8 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-12-19 23:54:40 --> foreach() argument must be of type array|object, null given
+#0 /opt/bitnami/apache/htdocs/vh/app/Views/exchange/portfolio.php(114): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/View/View.php(210): include('...')
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /opt/bitnami/apache/htdocs/vh/app/Controllers/Portfolio.php(21): view()
+#5 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Portfolio->index()
+#6 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#7 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#8 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-12-19 23:55:18 --> foreach() argument must be of type array|object, null given
+#0 /opt/bitnami/apache/htdocs/vh/app/Views/exchange/portfolio.php(114): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/View/View.php(210): include('...')
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /opt/bitnami/apache/htdocs/vh/app/Controllers/Portfolio.php(21): view()
+#5 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Portfolio->index()
+#6 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#7 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#8 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-12-19 23:55:23 --> foreach() argument must be of type array|object, null given
+#0 /opt/bitnami/apache/htdocs/vh/app/Views/exchange/portfolio.php(114): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/View/View.php(210): include('...')
+#2 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /opt/bitnami/apache/htdocs/vh/app/Controllers/Portfolio.php(21): view()
+#5 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Portfolio->index()
+#6 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#7 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#8 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-12-19 23:59:33 --> syntax error, unexpected token "}", expecting ";"
+#0 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render()
+#2 /opt/bitnami/apache/htdocs/vh/app/Controllers/Portfolio.php(21): view()
+#3 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Portfolio->index()
+#4 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#5 /opt/bitnami/apache/htdocs/vh/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#6 /opt/bitnami/apache/htdocs/vh/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}

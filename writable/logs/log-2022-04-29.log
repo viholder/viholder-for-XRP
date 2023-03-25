@@ -1,0 +1,30 @@
+ERROR - 2022-04-29 21:15:13 --> Error connecting to the database: Unknown database 'adminpro'
+CRITICAL - 2022-04-29 21:15:13 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'adminpro'
+#0 H:\httpdocs\others\my-projects\my-envato\CN\login-system\adminpro\adminpro-release\adminpro-2.1\vendor\codeigniter4\framework\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 H:\httpdocs\others\my-projects\my-envato\CN\login-system\adminpro\adminpro-release\adminpro-2.1\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 H:\httpdocs\others\my-projects\my-envato\CN\login-system\adminpro\adminpro-release\adminpro-2.1\vendor\codeigniter4\framework\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#3 H:\httpdocs\others\my-projects\my-envato\CN\login-system\adminpro\adminpro-release\adminpro-2.1\vendor\codeigniter4\framework\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#4 H:\httpdocs\others\my-projects\my-envato\CN\login-system\adminpro\adminpro-release\adminpro-2.1\app\Models\BaseModel.php(17): CodeIgniter\BaseModel->first()
+#5 H:\httpdocs\others\my-projects\my-envato\CN\login-system\adminpro\adminpro-release\adminpro-2.1\app\Helpers\basic_helper.php(116): App\Models\BaseModel->getById(1)
+#6 H:\httpdocs\others\my-projects\my-envato\CN\login-system\adminpro\adminpro-release\adminpro-2.1\app\Filters\AuthFilter.php(14): is_logged()
+#7 H:\httpdocs\others\my-projects\my-envato\CN\login-system\adminpro\adminpro-release\adminpro-2.1\vendor\codeigniter4\framework\system\Filters\Filters.php(173): App\Filters\AuthFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#8 H:\httpdocs\others\my-projects\my-envato\CN\login-system\adminpro\adminpro-release\adminpro-2.1\vendor\codeigniter4\framework\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('/', 'before')
+#9 H:\httpdocs\others\my-projects\my-envato\CN\login-system\adminpro\adminpro-release\adminpro-2.1\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 H:\httpdocs\others\my-projects\my-envato\CN\login-system\adminpro\adminpro-release\adminpro-2.1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2022-04-29 21:15:41 --> Error connecting to the database: Unknown database 'adminpro'
+CRITICAL - 2022-04-29 21:15:41 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'adminpro'
+#0 H:\httpdocs\others\my-projects\my-envato\CN\login-system\adminpro\adminpro-release\adminpro-2.1\vendor\codeigniter4\framework\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 H:\httpdocs\others\my-projects\my-envato\CN\login-system\adminpro\adminpro-release\adminpro-2.1\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 H:\httpdocs\others\my-projects\my-envato\CN\login-system\adminpro\adminpro-release\adminpro-2.1\vendor\codeigniter4\framework\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#3 H:\httpdocs\others\my-projects\my-envato\CN\login-system\adminpro\adminpro-release\adminpro-2.1\vendor\codeigniter4\framework\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#4 H:\httpdocs\others\my-projects\my-envato\CN\login-system\adminpro\adminpro-release\adminpro-2.1\app\Models\BaseModel.php(17): CodeIgniter\BaseModel->first()
+#5 H:\httpdocs\others\my-projects\my-envato\CN\login-system\adminpro\adminpro-release\adminpro-2.1\app\Helpers\basic_helper.php(116): App\Models\BaseModel->getById(1)
+#6 H:\httpdocs\others\my-projects\my-envato\CN\login-system\adminpro\adminpro-release\adminpro-2.1\app\Filters\AuthFilter.php(14): is_logged()
+#7 H:\httpdocs\others\my-projects\my-envato\CN\login-system\adminpro\adminpro-release\adminpro-2.1\vendor\codeigniter4\framework\system\Filters\Filters.php(173): App\Filters\AuthFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#8 H:\httpdocs\others\my-projects\my-envato\CN\login-system\adminpro\adminpro-release\adminpro-2.1\vendor\codeigniter4\framework\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('/', 'before')
+#9 H:\httpdocs\others\my-projects\my-envato\CN\login-system\adminpro\adminpro-release\adminpro-2.1\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 H:\httpdocs\others\my-projects\my-envato\CN\login-system\adminpro\adminpro-release\adminpro-2.1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}

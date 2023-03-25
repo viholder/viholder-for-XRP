@@ -1,0 +1,426 @@
+.content-wrapper{
+    background:#fff;
+    padding:0px;
+}
+ 
+.modal-open-poistion, .digits_atm, .mobil-menu{
+
+  -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10 and IE 11 */
+  user-select: none; /* Standard syntax */
+}
+
+
+.content{
+    -webkit-user-select: none; /* Safari */
+    -ms-user-select: none; /* IE 10 and IE 11 */
+    user-select: none; /* Standard syntax */
+    padding:0px;
+}
+.content-wrapper {
+   
+    padding-left:10px;
+    padding-right:10px;
+  }
+
+  .content-header{
+    padding:10px;
+    padding-left:0px;
+    padding-right:0px;
+    padding-top:15px;
+     
+  }
+ 
+.navbar-badge {
+    font-size: 15px;
+    margin-left:5px;
+    font-weight: bold;
+    right: 0px;
+    top: 0;
+  }
+
+.comenta_btn,  .notify_btn{
+    font-size: 27px;
+    
+}
+ 
+ .bg-griswithe{
+    background:#fcfcfc !important;
+}
+
+.small-box > .small-box-footer {
+    background-color: rgba(72, 72, 72, 0.5);
+}
+
+ 
+.redesss{
+    color:red;
+}
+
+.contract-item{
+    min-height:45px;
+}
+
+.preview-logo{
+    display:block;
+    aspect-ratio: 1 / 1;
+        width:100px;
+    background-color: lightslategray;
+    
+}
+
+.preview-header{
+    display:block;
+    aspect-ratio: 15/5;
+    width:200px;
+    background-color: lightslategray;
+    
+}
+
+ 
+
+#dashboard_target{
+    font-size:24px;
+}
+
+
+ 
+ 
+.widget-user .card-footer {
+    padding-top: 40px;
+  }
+
+
+.description-text-contracts{
+    font-size:12px;
+    text-transform: uppercase;
+    color:rgb(0, 0, 0);
+    font-weight: 700;
+}
+
+.description-header-contracts{
+    font-size: 20px;
+    font-weight: 300;
+    padding:0px;
+    margin-bottom: 0px;
+    color:rgb(64, 64, 64);
+}
+
+.toast {
+    opacity: 1 !important;
+}
+@media (min-width: 1200px){ 
+    .inner .dasboard-numbers{
+    font-size:33px !important;
+}
+sup { top: -.5em; }
+
+.centimos{
+    font-size:22px;
+}
+
+.valuedashboard sup{
+  top: -.2em;
+  font-weight:600;
+}
+.valuedashboard .centimos{
+  font-size:14px;
+  font-weight:600;
+}
+
+}
+
+@media (max-width: 767.98px){ 
+
+      .page-vh-menu{
+        padding:0px !important;
+        margin-top:10px;
+      }
+
+      .inner .dasboard-numbers{
+        font-size:24px !important;
+      }
+
+      sup { top: -.4em; }
+
+      .centimos{
+          font-size:16px;
+      }
+
+      .valuedashboard sup{
+        top: -.2em;
+        font-weight:600;
+      }
+      .valuedashboard .centimos{
+        font-size:12px;
+        font-weight:600;
+      }
+
+      
+}
+ 
+
+
+table.dataTable thead .sorting, 
+table.dataTable thead .sorting_asc, 
+table.dataTable thead .sorting_desc {
+    background : none;
+}
+ 
+
+.col-md-4{
+  
+  margin-bottom: 15px !important;
+}
+    
+ 
+@media (max-width: 767.98px){ 
+    .contract-menu-conteiner{ 
+    display:flex;align-content: space-around;flex-wrap: wrap;flex-direction: column-reverse;
+    } 
+
+    .contract-menu{
+      width:100% !important;
+      margin:0px !important;
+      margin-top:10px !important;
+    
+    }
+
+    .description-text-contracts{
+        font-size:14px;
+       
+    }
+    
+    .description-header-contracts{
+        font-size: 30px;
+        
+    }
+
+    .col-md-4{
+       padding:0px !important;
+       
+    }
+    .content-wrapper>.content {
+        padding:0px !important;
+    }
+
+    .contract-listed{
+      width:33% !important;
+    }
+
+    .card {
+        box-shadow: none !important;
+        border-top:1px solid #efefef;
+    }
+
+    h1 {
+        font-size: 1.6em !important;;
+        margin: 0;
+    }
+
+ }
+
+ h1 {
+    font-size: 1.6em !important;;
+    margin: 0;
+ }
+
+
+ .contract-listed{
+    width:33% !important;
+ }
+
+ 
+
+ .isfavorite{  
+   /* background-color:#dc3545 !important; */
+   color:#dc3545 !important;
+  }
+
+
+  #msgbell{
+    overflow: hidden;
+  }
+
+  .nav-item .dropdown .user-menu .show{
+    border: none !important;
+  }
+
+
+
+/* TOGGLE SWITCH */
+
+  .switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+  }
+  
+  .switch input { 
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  input:checked + .slider {
+    background-color: #2196F3;
+  }
+  
+  input:focus + .slider {
+    box-shadow: 0 0 1px #2196F3;
+  }
+  
+  input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+  }
+  
+  /* Rounded sliders */
+  .slider.round {
+    border-radius: 34px;
+  }
+  
+  .slider.round:before {
+    border-radius: 50%;
+  }
+  
+
+  .digits_atm{
+    width: 33%;
+    text-align: center;
+    border: 1px solid #cfcfcf;
+    height: 73px;
+    padding: 2px;
+    font-size: 43px;
+    color: white;
+    background: #757575;
+    cursor: pointer;
+  }
+
+  .digits_atm:hover{
+    color:#fff;
+    background: #9a9a9a;
+  }
+  .input_atm{
+    border: 0px;
+    background: #2121;
+    width: 100%;
+    font-size: 50px;
+    color: #212121;
+    text-align: right;
+    padding-right: 15px;
+}
+.units_atm{
+width: 100%;
+    text-align: right;
+    background: #efefef;
+    border: 0px;
+    color: #6b6b6b;
+    padding-right: 15px;
+  
+}
+
+.transapernte5{
+  opacity:0.3;
+}
+
+textarea:focus, input:focus{
+  outline: none !important;
+}
+
+
+html, body, p , div ,section{touch-action: none;}
+html, body, p , div ,section{touch-action: pan-down;}
+html, body, p , div ,section {touch-action: pan-up;}
+html, body, p , div ,section {touch-action: pan-y;;}
+/* Keyword values 
+touch-action: auto;
+touch-action: none;
+touch-action: pan-x;
+touch-action: pan-left;
+touch-action: pan-right;
+touch-action: pan-y;
+touch-action: pan-up;
+touch-action: pan-down;
+touch-action: pinch-zoom;
+touch-action: manipulation;
+
+/* Global values  
+touch-action: inherit;
+touch-action: initial;
+touch-action: revert;
+touch-action: revert-layer;
+touch-action: unset;
+
+*/
+
+@keyframes animatedBackground {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: 99% 0;
+  }
+}
+
+@-webkit-keyframes animatedBackground {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: 99% 0;
+  }
+}
+
+
+.mobil-menu{  
+    bottom: 0;
+    left: 0;
+    position: fixed;
+    right: 0;
+    z-index: 1032;
+    background-color:#fff;
+    text-align:center;
+}
+
+a.disabled{
+  background:#fff !important;
+  cursor:no-drop !important;
+}
+
+.profile-user-online {
+  border: 3px solid #00b44e;
+  margin: 0 auto;
+  padding: 3px;
+  width: 100px;
+}
+
+.btn_fund_deposit{
+  cursor:pointer;
+}
