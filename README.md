@@ -86,7 +86,19 @@ Both the user and the contract owner will typically have an XRP wallet associate
 <br>
 For users, their XRP wallet may be used to fund their contract positions, withdraw payouts, or transfer funds to other users or external wallets. They may also be able to deposit additional XRP into their wallet at any time, depending on the terms and conditions of their account.
 <br>
-<h2> XRP ecosistem </h2>
+<h2> Viholder XRP ecosistem </h2>
+Currently, the platform is experiencing the growth of an organic ecosystem. Many projects that have created contracts through the platform continue to use the XRP technology and the platform itself. This is a testament to the robustness and reliability of the platform, as well as the benefits that it provides to users.<br>
+<br>
+The use of XRP technology and the platform also provides users with several benefits, including fast and secure transactions, low fees, and the ability to easily exchange different types of assets.<br>
+<br>
+Some of the projects that have already successfully used the platform are:
+
+
+-<b>Tequila Don Rich</b><br>
+-Metales Barajas <br>
+-Simplicapital <br>
+-Sayuwallet <br>
+
 
 <h2> Programming languages and frameworks </h2>
 <br>
