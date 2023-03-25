@@ -44,9 +44,8 @@ print ("connected")
 
 mycursor = mydb.cursor()
 
-sql = ("UPDATE contracts SET  contract_address ='"+wallet_from_seed.classic_address+"' where id='"+contractID+"'")
-sql2 = ("UPDATE wallets SET  wallet_address ='"+wallet_from_seed.classic_address+"', wallet_public ='"+public+"', wallet_key ='"+private+"', wallet_seed ='"+seed+"',  wallet_currency ='XRP' where id='"+walletID+"'")
- 
+# PRIVATE CODE FOR SECURITY REASONS, Please contact one@viholder.com for any information.
+
 mycursor.execute(sql2)
 
 mydb.commit()
