@@ -1,5 +1,5 @@
 # viholder for XRP 
-This platform is allowing users and business to create and participate on smart contracts that are shaped in many types of financial  tools and other creative ways. It uses XRP ledger for secure and fast execution and settlement, it  offers templates for various use cases. A contract rating system and stats adds transparency, making it a reliable solution for businesses and individuals looking for take part. 
+This platform is allowing users and business to create and participate on smart contracts that are shaped in many types of financial instruments and other creative ways. It uses XRP ledger for secure and fast execution and settlement, it  offers templates for various use cases. A contract rating system and stats adds transparency, making it a reliable solution for businesses and individuals looking for take part. 
 
 <br>
 
