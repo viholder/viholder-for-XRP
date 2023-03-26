@@ -116,10 +116,10 @@ The platform has been developed using a combination of programming languages and
  
  <h2>Installation</h2><br>
  To install and run the venture, please follow these steps:<br>
- 1. Clone the repository to your local machine.<br>
-2. Install the required dependencies.<br>
-3. Start the application.<br>
-4. Access the application.
+ 1. Clone the repository to your local machine or server.<br>
+ 2. Install the required dependencies.<br>
+ 3. Start the application.<br>
+ 4. Access the application.
 <br>
  <br>
  <h2>License</h2><br>
