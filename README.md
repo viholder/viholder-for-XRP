@@ -93,22 +93,37 @@ The use of XRP technology and the platform also provides users with several bene
 <br>
 Some of the projects that have already successfully used the platform are:
 
-
--<b>Tequila Don Rich</b><br>
+<br>
+-Tequila Don Rich<br>
 -Metales Barajas <br>
 -Simplicapital <br>
 -Sayuwallet <br>
 
 
-<h2> Programming languages and frameworks </h2>
+<h2>Dependencies</h2>
+ 
+The platform has been developed using a combination of programming languages and frameworks to create a robust and user-friendly experience. Some of the key tools and technologies used in the platform include.
+ 
+ <a href="https://www.php.net/releases/8.0/en.php">PHP Version 8</a><br>
+ <a href="https://www.mysql.com/"> MySql</a><br>
+ <a href="https://www.python.org/downloads/">Python3</a> <br>
+ <a href="https://github.com/XRPLF/xrpl-py">xrpl-py library </a><br>
+ <a href="https://dev.mysql.com/doc/connector-python/en/">mysql.connector library </a><br>
+ <a href="https://jquery.com/">jQuery</a><br>
+ <a href="https://jquery.com/">bootstrap</a><br>
+ <a href="https://adminlte.io/">Adminlte</a><br>
+ <a href="https://codeigniter.com/user_guide/intro/index.html">Codeigniter 4</a><br><br>
+ 
+ <h2>Installation</h2><br>
+ To install and run the venture, please follow these steps:<br>
+ <br>
+ <h2>License</h2><br>
+This repository is licensed under the AGPL License.<br>
+1. Clone the repository to your local machine.<br>
+2. Install the required dependencies.<br>
+3. Start the application.<br>
+4. Access the application.
 <br>
-The contract platform has been developed using a combination of programming languages and frameworks to create a robust and user-friendly experience. Some of the key tools and technologies used in the platform include
-<br>
-<b>PHP</b><br>
-<b>Python</b><br>
-<b>JavaScript<br>
-<b>CodeIgniter Framework:</b> <br>
-<b>Bootstrap CSS:</b> <br>
 <h2> Live working Version:</h2>
 Please note that while the contract platform is currently under development, there is a working version available for users to explore and test. You can visit the platform at <a href="https://viholder.com">viholder.com</a> to see how it works and familiarize yourself with its features and capabilities
 
