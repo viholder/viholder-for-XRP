@@ -113,6 +113,9 @@ The platform has been developed using a combination of programming languages and
  <a href="https://jquery.com/">bootstrap</a><br>
  <a href="https://adminlte.io/">Adminlte</a><br>
  <a href="https://codeigniter.com/user_guide/intro/index.html">Codeigniter 4</a><br><br>
+ <a href="https://nodejs.org">node js</a><br><br>
+ <a href="https://nodejs.org">express js</a><br><br>
+ <a href="https://js.xrpl.org/">xrpl.js</a><br><br>
  
  <h2>Installation</h2><br>
  To install and run the venture, please follow these steps:<br>
