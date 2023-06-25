@@ -7,14 +7,14 @@ const { createHash } = require('crypto');
 
 var hasNOM151=0
 
-var master_wallet_seed="sEdTxuS7Aic2hoSSufgHJcTPbCu2syA"
+var master_wallet_seed=""
  
 
  var con = mysql.createConnection({
-      host: "intelector.com",
-      user: "jp",
-      password: "JP071174DE",
-      database: "intelec_xrp",
+      host: "",
+      user: "",
+      password: "",
+      database: "",
       port: "3306"
  });
 
