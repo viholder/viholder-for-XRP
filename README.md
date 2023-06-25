@@ -1,4 +1,4 @@
-# viholder for XRP 
+# viholder for XRPL
 This platform is allowing users and business to create and participate on smart contracts that are shaped in many types of financial instruments and other creative ways. It uses XRP ledger for secure and fast execution and settlement, it  offers templates for various use cases. A contract rating system and stats adds transparency, making it a reliable solution for businesses and individuals looking for take part. 
 
 <br>
@@ -53,8 +53,8 @@ Contracts can come in a variety of types and behaviors, each designed to suit di
 <b>Crowdfunding</b>: Crowdfunding contracts allow multiple investors to contribute funds towards a specific project or venture. They are often used to raise money for startups or social causes, and can provide investors with a share of the profits or rewards associated with the project.<br><br>
 <br>
 
-![XRP-selected](https://user-images.githubusercontent.com/128828242/227734087-63f49dc6-ebba-439f-85b9-1e2c4d853334.png)
 
+![useblockchain](https://github.com/viholder/viholder-for-XRP/assets/128828242/7ea7127c-4449-4814-8ecc-1405967fa17f)
 
 </br>
 <br>Once the XRP network is selected the systems create a XRP wallet where the funds will be deposited.
